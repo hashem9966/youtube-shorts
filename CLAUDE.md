@@ -1,6 +1,7 @@
 # Daily YouTube Short: production procedure
 
-This repo is an autopilot for an Arabic science-explainer YouTube Shorts channel. A scheduled session runs this procedure once a day.
+This repo is an autopilot for an Arabic science-explainer YouTube Shorts channel. A scheduled session runs once a day and makes **two** Shorts (owner's choice since 2026-11-24). Run steps 2–3 once, then steps 4–10 for video A, then again for video B, then 11–12.
+The goal the owner set: steady growth toward YouTube monetization. Optimise for retention (average view duration), returning viewers and consistency, not raw volume.
 **The owner chose fully automatic publishing.** Publish only if every check below passes. If anything fails, publish nothing and report the failure.
 
 Language for everything the viewer sees or hears: **Hijazi Arabic dialect** (the owner's choice since 2026-11-24), kept clear and easy for any Arab viewer.
@@ -12,7 +13,8 @@ The skills mention `~/.claude/youtube/voice.md` and asking for the creator's vid
 
 ## Fixed facts
 - Metricool brand (blogId): `8317657`, timezone `Asia/Riyadh`, YouTube is the only connected network.
-- Publish time: **16:00 Asia/Riyadh** (Metricool best-time data peaks 15:00–17:00). If 16:00 has already passed, use now + 20 minutes.
+- Publish times: video A at **13:00**, video B at **18:00** Asia/Riyadh (both inside Metricool's best-time window; the peak is 15:00–17:00). If a slot has already passed, use now + 20 minutes, and keep B at least 4 hours after A.
+- The two videos of a day must be on different topics and look different (different scenes and visual metaphors), so the channel never reads as mass-produced. YouTube does not monetise repetitive or templated content, so variety matters.
 - Video hosting: files committed to `main` are public at
   `https://raw.githubusercontent.com/hashem9966/youtube-shorts/main/<path>`. Metricool downloads the video from that URL.
 - Voice: edge-tts `ar-SA-HamedNeural`, rate `+25%` (host `speech.platform.bing.com` is allowed in this environment; `engine/voice.py` passes the session proxy).
@@ -28,7 +30,9 @@ The skills mention `~/.claude/youtube/voice.md` and asking for the creator's vid
    - First, what our own channel shows works: which of our past topics/hook styles got the most views and longest average view duration.
    - Then competitor videos with the most views (step 2), and the `yt-viral` skill's way of judging: rank by how far a video beat its own channel's median, then name the formula. Make our own version of the *idea*; never copy a video's script, visuals, title or branding.
    - Otherwise take the first unchecked topic in `topics.md`.
-   - Never repeat a topic that is already in `log.md`. Tick the chosen topic in `topics.md`.
+   - Never repeat a topic that is already in `log.md`. Tick the chosen topics in `topics.md`.
+   - Choose two topics per run: one from the strongest-performing pattern so far, and one that tests something new (a new subject area or hook formula). Say in the report which test it is.
+   - **Every Friday**, also do a short channel review in the spirit of the `yt-audit` skill: retention and views per video, which hooks and topics win, and ONE change to apply next week. Reorder `topics.md` to match, and add new topics when fewer than 15 remain.
 4. **Facts.** Write down each factual claim the video makes. Verify any claim you are not certain of with WebSearch; prefer encyclopedias, universities and official agencies. Use round, well-established numbers only, with «حوالي» where appropriate. Never invent a number. If a claim cannot be verified, cut it.
    Avoid medical advice, religion, politics, and anything dangerous to try at home.
 5. **Script (follow the `yt-script` skill).** Write 5 hooks, translate each to English and score them with
@@ -54,11 +58,12 @@ The skills mention `~/.claude/youtube/voice.md` and asking for the creator's vid
     Then Metricool `createScheduledPost` with:
     - providers `[{"network":"youtube"}]`, media `[raw video URL]`, text = description, autoPublish true;
     - youtubeData `{"title":…, "type":"short", "privacy":"public", "tags":[…], "category":"EDUCATION", "madeForKids":false, "isAiGeneratedContent":false}`;
-    - publicationDate `{"dateTime":"<today>T16:00:00","timezone":"Asia/Riyadh"}`.
+    - publicationDate `{"dateTime":"<today>T13:00:00"|"<today>T18:00:00","timezone":"Asia/Riyadh"}` for video A and B;
+    - firstCommentText: one short question to the viewers about the topic, in Hijazi Arabic, to start comments.
     Confirm the response shows the youtube provider PENDING or PUBLISHED.
 11. **Log.** Append a row to `log.md` with the date, topic, title, video path, Metricool plannerUrl and status. Commit and push.
 12. **Report** (the final message is sent to the owner's phone), in Arabic and short:
-    - today's video: its title, publish time and the Metricool link;
+    - today's two videos: each one's title, publish time and Metricool link;
     - channel numbers: subscribers, views in the last 24 h/7 d, and the best video so far;
     - what the numbers suggest for the next videos (one line);
     - anything that failed or needs the owner.
