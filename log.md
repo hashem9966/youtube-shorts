@@ -3,7 +3,7 @@
 ## الفيديوهات
 | التاريخ | الموضوع | العنوان | الملف | Metricool | الحالة |
 |---|---|---|---|---|---|
-| 2026-11-23 | البنزين والديزل | بنزين ولا ديزل؟ الفرق في 36 ثانية | episodes/2026-11-23-benzin-diesel/video.mp4 | https://app.metricool.com/planner/calendar?blogId=8317657&openWithPostUuid=463646633747237206 | مجدول 22:45 (رُفع من Dropbox) |
+| 2026-11-23 | البنزين والديزل | بنزين ولا ديزل؟ الفرق في 36 ثانية | episodes/2026-11-23-benzin-diesel/video.mp4 | https://app.metricool.com/planner/calendar?blogId=8317657&openWithPostUuid=463646633747237206 | منشور: https://www.youtube.com/shorts/6ifOXxPSaH8 |
 
 ## أرقام القناة اليومية
 | التاريخ | المشتركين | مشاهدات ٢٤ ساعة | مشاهدات ٧ أيام | أفضل فيديو | ملاحظة |
