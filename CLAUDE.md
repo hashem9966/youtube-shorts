@@ -3,7 +3,10 @@
 This repo is an autopilot for an Arabic science-explainer YouTube Shorts channel. A scheduled session runs this procedure once a day.
 **The owner chose fully automatic publishing.** Publish only if every check below passes. If anything fails, publish nothing and report the failure.
 
-Language for everything the viewer sees or hears: Arabic in a light, clear Saudi dialect (see `episodes/2026-11-23-benzin-diesel/script.json`).
+Language for everything the viewer sees or hears: **Hijazi Arabic dialect** (the owner's choice since 2026-11-24), kept clear and easy for any Arab viewer.
+Use Hijazi words naturally: «إيش» (what), «ليش» (why), «كدا» (not «كذا»), «دحين» (now), «مرّة» (very), «زي» (like), «حق» (belonging to), «بس», «يعني», «عشان», «يطلع/ينزل», «تشوف». Avoid Najdi markers such as «وش», «ذحين», «كذا», «مب». Keep science terms in plain standard Arabic.
+The 2026-11-23 reference episode is in a general Saudi dialect; copy its structure and pacing, not its wording.
+The TTS voice (`ar-SA-HamedNeural`) has a general Saudi accent; there is no Hijazi-specific voice, so the dialect comes from the wording. Spell the `tts` text the way a Hijazi speaker says it (e.g. «كدا», «دحين»).
 Report to the owner in Arabic.
 The skills mention `~/.claude/youtube/voice.md` and asking for the creator's videos: this channel has no voice file and nobody to ask during the run. The voice is the reference episode's style. Skip that step and do not wait for input. The skills' "ship it, or change it?" gate is replaced by the owner's standing approval above.
 
