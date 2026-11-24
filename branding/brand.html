@@ -1,0 +1,46 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<link rel="stylesheet" href="../engine/fonts/fonts.css">
+<style>html,body{margin:0;background:#0B1426}canvas{display:block}</style>
+</head><body>
+<canvas id="c"></canvas>
+<script>window.LANG='en'</script>
+<script src="../engine/lib.js"></script>
+<script>
+// Channel art in the same palette as the videos. ?kind=avatar|banner&name=...
+const q=new URLSearchParams(location.search),KIND=q.get('kind'),NAME=q.get('name')||'How It Started';
+const C2=document.getElementById('c');
+function grid(w,h,step){X.strokeStyle='rgba(255,255,255,.04)';X.lineWidth=2;for(let x=0;x<=w;x+=step){X.beginPath();X.moveTo(x,0);X.lineTo(x,h);X.stroke()}for(let y=0;y<=h;y+=step){X.beginPath();X.moveTo(0,y);X.lineTo(w,y);X.stroke()}}
+function atom(cx,cy,r,lw,a=1){X.save();X.globalAlpha*=a;X.lineWidth=lw;const cols=[G,D,'#6FB8FF'];
+  for(let i=0;i<3;i++){X.save();X.translate(cx,cy);X.rotate(i*Math.PI/3);X.strokeStyle=cols[i];X.beginPath();X.ellipse(0,0,r,r*.36,0,0,7);X.stroke();X.restore()}
+  X.restore()}
+function mark(cx,cy,s){ // logo: atom orbits around a glowing question mark
+  glow(cx,cy,s*1.25,'rgba(255,176,32,.28)',1);
+  atom(cx,cy,s,s*.055);
+  X.save();X.font=`900 ${s*1.15}px Cairo`;X.textAlign='center';X.textBaseline='middle';X.direction='ltr';
+  const g=X.createLinearGradient(cx-s*.4,cy-s*.5,cx+s*.4,cy+s*.5);g.addColorStop(0,G);g.addColorStop(1,'#FF6A3D');
+  X.lineJoin='round';X.lineWidth=s*.08;X.strokeStyle='rgba(4,8,18,.95)';X.strokeText('?',cx,cy+s*.05);X.fillStyle=g;X.fillText('?',cx,cy+s*.05);X.restore();
+  [[0,1],[2.1,.8],[4.2,.9]].forEach(([an,k],i)=>{const cols=[G,D,'#6FB8FF'];X.save();X.translate(cx,cy);X.rotate(i*Math.PI/3);
+    X.beginPath();X.arc(Math.cos(an)*s,Math.sin(an)*s*.36,s*.07,0,7);X.fillStyle=cols[i];X.fill();X.restore()});
+}
+function avatar(){const S=800;C2.width=C2.height=S;
+  const g=X.createRadialGradient(S/2,S/2,50,S/2,S/2,S*.7);g.addColorStop(0,'#1A3566');g.addColorStop(1,'#0A1224');X.fillStyle=g;X.fillRect(0,0,S,S);
+  grid(S,S,80);mark(S/2,S/2,270);}
+function banner(){const W2=2560,H2=1440;C2.width=W2;C2.height=H2;
+  const g=X.createLinearGradient(0,0,W2,H2);g.addColorStop(0,'#0A1224');g.addColorStop(1,'#13264A');X.fillStyle=g;X.fillRect(0,0,W2,H2);grid(W2,H2,90);
+  for(let i=0;i<60;i++){X.fillStyle=`rgba(160,200,255,${.06+rnd(i)*.12})`;X.beginPath();X.arc(rnd(i+3)*W2,rnd(i+9)*H2,2+rnd(i+5)*4,0,7);X.fill()}
+  // soft background icons, kept outside the 1546x423 safe area so they never cover the text
+  X.save();X.globalAlpha=.5;drop(330,520,1.3,G);drop(2230,900,1.3,D);bolt(2250,480,1.8,SP,1);barrel(330,960,.7);atom(1900,1150,120,8,.6);atom(650,260,90,7,.6);X.restore();
+  // safe area (centre 1546x423)
+  const sx=(W2-1546)/2,sy=(H2-423)/2;
+  mark(sx+230,H2/2,150);
+  X.save();X.direction='ltr';X.textAlign='left';X.textBaseline='middle';
+  X.font='900 150px Cairo';X.lineJoin='round';X.lineWidth=14;X.strokeStyle='rgba(4,8,18,.9)';
+  const words=NAME.split(' ');let x=sx+450;const y=H2/2-55;
+  words.forEach((w,i)=>{const col=i===words.length-1?G:WH;X.strokeText(w,x,y);X.fillStyle=col;X.fillText(w,x,y);x+=X.measureText(w+' ').width});
+  X.font='700 56px Cairo';X.fillStyle='#9FB0C8';X.fillText('Science explained in under a minute',sx+455,H2/2+70);
+  X.direction='rtl';X.textAlign='right';X.font='800 52px Cairo';X.fillStyle=D;X.fillText('العلوم في أقل من دقيقة',sx+1546-20,H2/2+150);
+  X.restore();
+}
+window.ready.then(()=>{KIND==='avatar'?avatar():banner();window.done=true});
+</script></body></html>
