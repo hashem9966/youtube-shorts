@@ -31,7 +31,7 @@ The skills mention `~/.claude/youtube/voice.md` and asking for the creator's vid
 
 ## Steps
 
-1. **Setup.** `pip install -q edge-tts`. Run from the repo root.
+1. **Setup.** `pip install -q edge-tts`. Run from the repo root. **First check `log.md` and Metricool `getScheduledPosts` for today:** if today's videos already exist (they were made ahead of time), do not make new ones; only do steps 2, 11 and 12 (analytics, log, report), and use the spare time to prepare tomorrow's two episodes without scheduling them.
 2. **Look at the channel first.** Use Metricool `getAnalyticsDataByMetrics` (brandId 8317657, last 14 days) with
    `YTVP17,YTVP05,YTVP06,YTVP08,YTVP09,YTVP11,YTVP12` (title, url, views, avg view duration, likes, comments, shares)
    and `YTEV01,YTEV05` (subscribers, gained). Append today's numbers to `log.md`.
