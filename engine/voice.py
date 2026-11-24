@@ -1,13 +1,20 @@
 #!/usr/bin/env python3
 """Voiceover + timeline + sound effects for one episode.
-usage: python3 engine/voice.py episodes/<slug>
-Reads <ep>/script.json, writes <ep>/build/{timeline.json,audio.wav}.
+usage: python3 engine/voice.py episodes/<slug> [ar|en]
+Reads <ep>/script.json, writes <ep>/build/ (Arabic) or <ep>/build-en/ (English) with timeline.json and audio.wav.
+English uses script.json "en": {"voice", "rate", "lines":[{"caption","tts"}...]} with one entry per Arabic line;
+timing ("at", "scene_start", "pause_before") and sfx are shared with the Arabic lines.
 Needs: pip install edge-tts ; network host speech.platform.bing.com (via the session proxy)."""
 import json, os, subprocess, sys, wave
 import numpy as np
-EP=sys.argv[1]; B=os.path.join(EP,'build'); os.makedirs(B,exist_ok=True)
+EP=sys.argv[1]; LANG=sys.argv[2] if len(sys.argv)>2 else 'ar'
+B=os.path.join(EP,'build' if LANG=='ar' else 'build-'+LANG); os.makedirs(B,exist_ok=True)
 sc=json.load(open(os.path.join(EP,'script.json')))
 voice=sc.get('voice','ar-SA-HamedNeural'); rate=sc.get('rate','+25%'); design=sc.get('design_duration',30.0)
+if LANG!='ar':
+    tr=sc[LANG]; assert len(tr['lines'])==len(sc['lines']), f'{LANG} needs exactly one line per Arabic line'
+    sc['lines']=[{**a,'caption':b['caption'],'tts':b.get('tts',b['caption'])} for a,b in zip(sc['lines'],tr['lines'])]
+    voice=tr.get('voice','en-US-AndrewNeural'); rate=tr.get('rate','+10%')
 sr=44100
 env=dict(os.environ, SSL_CERT_FILE=os.environ.get('SSL_CERT_FILE','/root/.ccr/ca-bundle.crt'))
 proxy=os.environ.get('HTTPS_PROXY') or os.environ.get('https_proxy')
@@ -54,4 +61,4 @@ for k,times in sc.get('sfx',{}).items():
 mix=vo+sfx*0.55; mix*=np.minimum(1,(E-np.arange(n)/sr)/0.4); mix=mix/np.max(np.abs(mix))*0.9
 d=(mix*32767).astype(np.int16); w=wave.open(os.path.join(B,'audio.wav'),'wb'); w.setnchannels(2); w.setsampwidth(2); w.setframerate(sr); w.writeframes(np.stack([d,d],1).tobytes()); w.close()
 json.dump({'E':E,'anchors':anchors,'caps':caps},open(os.path.join(B,'timeline.json'),'w'),ensure_ascii=False)
-print(f'voice ok: {E:.1f}s, {len(caps)} lines')
+print(f'voice ok ({LANG}): {E:.1f}s, {len(caps)} lines')

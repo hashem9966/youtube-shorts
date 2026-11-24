@@ -14,15 +14,22 @@ function rnd(i){const s=Math.sin(i*127.1+311.7)*43758.5453;return s-Math.floor(s
 
 /* captions are filled by the renderer from timeline.json */
 const CAPS=[];window.CAPS=CAPS;
+/* Language: the renderer sets window.LANG ('ar' default, or 'en') before drawing.
+   Scenes must write every on-screen word as T('عربي','English'). */
+window.LANG=window.LANG||'ar';
+const T=(ar,en)=>window.LANG==='en'?(en??ar):ar;
+const DIR=()=>window.LANG==='en'?'ltr':'rtl';
+/* Caption keyword colours: scene.js sets window.HIGHLIGHT=[['بنزين',G],['gasoline',G],...] (substring, colour). */
+window.HIGHLIGHT=window.HIGHLIGHT||[];
 
 /* ---------- primitives ---------- */
 function rr(x,y,w,h,r){X.beginPath();X.roundRect(x,y,w,h,r)}
 function txt(s,x,y,size,col,wt=900,align='center',alpha=1){
-  X.save();X.globalAlpha*=alpha;X.font=`${wt} ${size}px Cairo`;X.direction='rtl';X.textAlign=align;X.textBaseline='middle';
+  X.save();X.globalAlpha*=alpha;X.font=`${wt} ${size}px Cairo`;X.direction=DIR();X.textAlign=align;X.textBaseline='middle';
   X.fillStyle=col;X.fillText(s,x,y);X.restore();
 }
 function stroked(s,x,y,size,col,align='center',alpha=1,sw=10){
-  X.save();X.globalAlpha*=alpha;X.font=`900 ${size}px Cairo`;X.direction='rtl';X.textAlign=align;X.textBaseline='middle';
+  X.save();X.globalAlpha*=alpha;X.font=`900 ${size}px Cairo`;X.direction=DIR();X.textAlign=align;X.textBaseline='middle';
   X.lineJoin='round';X.lineWidth=sw;X.strokeStyle='rgba(4,8,18,.92)';X.strokeText(s,x,y);X.fillStyle=col;X.fillText(s,x,y);X.restore();
 }
 function glow(x,y,r,col,a){const g=X.createRadialGradient(x,y,0,x,y,r);g.addColorStop(0,col);g.addColorStop(1,'rgba(0,0,0,0)');X.save();X.globalAlpha*=a;X.fillStyle=g;X.fillRect(x-r,y-r,2*r,2*r);X.restore()}
@@ -69,7 +76,7 @@ function bg(t){
 }
 
 /* ---------- captions ---------- */
-function wordCol(w){if(w.includes('بنزين'))return G;if(w.includes('ديزل'))return D;if(w.includes('شرارة')||w.includes('البوجي'))return SP;if(w.includes('٤٠٠')||w.includes('حرار')||w.includes('يسخن'))return FL;return WH}
+function wordCol(w){const lw=w.toLowerCase();for(const [k,c] of window.HIGHLIGHT){if(lw.includes(k.toLowerCase()))return c}return WH}
 function captions(t){
   const c=CAPS.find(c=>t>=c[0]&&t<c[1]);if(!c)return;
   const p=seg(t,c[0],c[0]+.18),out=seg(t,c[1]-.12,c[1]);const a=Math.min(p,1-out);
@@ -79,9 +86,11 @@ function captions(t){
   const total=tw(),cx=520,cy=1430,sc=lerp(.86,1,back(p));
   X.save();X.translate(cx,cy);X.scale(sc,sc);X.globalAlpha=a;
   rr(-total/2-36,-size*.95,total+72,size*1.9,28);X.fillStyle='rgba(5,10,22,.62)';X.fill();
-  let x=total/2; // RTL: first word on the right
   X.font=`900 ${size}px Cairo`;
-  for(const w of words){const ww=X.measureText(w).width;stroked(w,x,4,size,wordCol(w),'right',1,9);x-=ww+sp()}
+  if(window.LANG==='en'){let x=-total/2; // LTR: first word on the left
+    for(const w of words){const ww=X.measureText(w).width;stroked(w,x,4,size,wordCol(w),'left',1,9);x+=ww+sp()}}
+  else{let x=total/2; // RTL: first word on the right
+    for(const w of words){const ww=X.measureText(w).width;stroked(w,x,4,size,wordCol(w),'right',1,9);x-=ww+sp()}}
   X.restore();
 }
 

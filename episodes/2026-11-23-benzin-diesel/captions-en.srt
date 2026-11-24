@@ -1,0 +1,67 @@
+1
+00:00:00,150 --> 00:00:01,742
+One barrel… two fuels
+
+2
+00:00:01,742 --> 00:00:02,928
+and you can never swap them
+
+3
+00:00:02,928 --> 00:00:03,407
+Why?
+
+4
+00:00:03,607 --> 00:00:04,855
+It all starts with crude oil
+
+5
+00:00:04,855 --> 00:00:06,999
+heated to about 400°C
+
+6
+00:00:06,999 --> 00:00:08,452
+until it turns into vapor
+
+7
+00:00:08,652 --> 00:00:10,174
+The vapor rises up a tower
+
+8
+00:00:10,174 --> 00:00:11,838
+and the higher it goes, the cooler
+
+9
+00:00:11,838 --> 00:00:13,895
+Light stuff condenses up top: gasoline
+
+10
+00:00:13,895 --> 00:00:15,974
+Heavier stuff lower down: diesel
+
+11
+00:00:16,174 --> 00:00:18,238
+In the engine, gasoline needs a spark
+
+12
+00:00:18,238 --> 00:00:19,849
+from the spark plug to ignite
+
+13
+00:00:20,949 --> 00:00:22,441
+Diesel needs no spark at all
+
+14
+00:00:22,441 --> 00:00:24,227
+The engine squeezes air until it's hot
+
+15
+00:00:24,227 --> 00:00:26,102
+and diesel ignites from the heat alone
+
+16
+00:00:26,302 --> 00:00:27,756
+That's why trucks run on diesel
+
+17
+00:00:27,756 --> 00:00:29,919
+Same barrel… but each needs its own engine

@@ -177,5 +177,64 @@
    26.5,
    28.5
   ]
+ },
+ "en": {
+  "title": "Gasoline vs Diesel: Same Barrel, 2 Engines",
+  "voice": "en-US-AndrewNeural",
+  "rate": "+10%",
+  "lines": [
+   {
+    "caption": "One barrel… two fuels"
+   },
+   {
+    "caption": "and you can never swap them"
+   },
+   {
+    "caption": "Why?"
+   },
+   {
+    "caption": "It all starts with crude oil"
+   },
+   {
+    "caption": "heated to about 400°C",
+    "tts": "heated to about four hundred degrees Celsius"
+   },
+   {
+    "caption": "until it turns into vapor"
+   },
+   {
+    "caption": "The vapor rises up a tower"
+   },
+   {
+    "caption": "and the higher it goes, the cooler"
+   },
+   {
+    "caption": "Light stuff condenses up top: gasoline"
+   },
+   {
+    "caption": "Heavier stuff lower down: diesel"
+   },
+   {
+    "caption": "In the engine, gasoline needs a spark"
+   },
+   {
+    "caption": "from the spark plug to ignite"
+   },
+   {
+    "caption": "Diesel needs no spark at all"
+   },
+   {
+    "caption": "The engine squeezes air until it's hot"
+   },
+   {
+    "caption": "and diesel ignites from the heat alone"
+   },
+   {
+    "caption": "That's why trucks run on diesel"
+   },
+   {
+    "caption": "Same barrel… but each needs its own engine"
+   }
+  ]
  }
 }
