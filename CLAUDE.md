@@ -72,7 +72,7 @@ The skills mention `~/.claude/youtube/voice.md` and asking for the creator's vid
     - firstCommentText: one short question to the viewers about the topic (fusha for Arabic, English for English), to start comments.
     Confirm the response shows the youtube provider PENDING or PUBLISHED.
 11. **Log.** Append a row to `log.md` with the date, topic, title, video path, Metricool plannerUrl and status. Commit and push.
-12. **Report** (the final message is sent to the owner's phone), in Arabic and short:
+12. **Report**, in Arabic and short. The owner asked to be told when the day's content is ready, so first send a push notification with the PushNotification tool (load it with ToolSearch "select:PushNotification"). Make it one Arabic line, e.g. «فيديوهات اليوم جاهزة: <A> و<B>، أول نشر 1:00 الظهر». Then write the final message:
     - today's two videos: each one's title, publish time and Metricool link;
     - channel numbers: subscribers, views in the last 24 h/7 d, and the best video so far;
     - what the numbers suggest for the next videos (one line);
