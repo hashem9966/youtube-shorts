@@ -23,23 +23,54 @@ function mark(cx,cy,s){ // logo: atom orbits around a glowing question mark
   [[0,1],[2.1,.8],[4.2,.9]].forEach(([an,k],i)=>{const cols=[G,D,'#6FB8FF'];X.save();X.translate(cx,cy);X.rotate(i*Math.PI/3);
     X.beginPath();X.arc(Math.cos(an)*s,Math.sin(an)*s*.36,s*.07,0,7);X.fillStyle=cols[i];X.fill();X.restore()});
 }
+const INK='#1B0F12';
+function pumpjack(x,y,s,ph,col=INK){ // oil pump silhouette standing on (x,y); ph = beam angle phase
+  X.save();X.translate(x,y);X.scale(s,s);X.fillStyle=col;X.strokeStyle=col;X.lineCap='round';X.lineJoin='round';
+  X.fillRect(-170,-14,360,14);                                  // skid
+  X.lineWidth=14;X.beginPath();X.moveTo(-60,-14);X.lineTo(0,-210);X.lineTo(60,-14);X.stroke(); // samson post
+  X.lineWidth=8;X.beginPath();X.moveTo(-30,-110);X.lineTo(30,-110);X.stroke();
+  const an=Math.sin(ph)*.16;
+  X.save();X.translate(0,-215);X.rotate(an);
+  X.fillRect(-190,-12,330,24);                                  // walking beam
+  X.beginPath();X.moveTo(-190,-40);X.quadraticCurveTo(-245,0,-190,40);X.lineTo(-175,40);X.lineTo(-175,-40);X.closePath();X.fill(); // horse head
+  X.fillRect(120,-6,40,12);
+  X.restore();
+  // crank + counterweight + pitman arm
+  const cx=150,cy=-70;X.beginPath();X.arc(cx,cy,22,0,7);X.fill();
+  X.save();X.translate(cx,cy);X.rotate(ph);X.beginPath();X.moveTo(0,0);X.arc(0,0,62,-.6,.6);X.closePath();X.fill();X.restore();
+  const bx=150*Math.cos(an)+0,by=-215+150*Math.sin(an);X.lineWidth=10;X.beginPath();X.moveTo(cx+Math.cos(ph)*40,cy+Math.sin(ph)*40);X.lineTo(bx,by);X.stroke();
+  // polished rod + wellhead under the horse head
+  const hx=-215*Math.cos(an),hy=-215-215*Math.sin(an)+40;X.lineWidth=5;X.beginPath();X.moveTo(hx,hy);X.lineTo(hx,-40);X.stroke();
+  X.fillRect(hx-16,-40,32,26);X.restore();
+}
+function sky(w,h,hz){const g=X.createLinearGradient(0,0,0,hz);g.addColorStop(0,'#0F1B3D');g.addColorStop(.45,'#3B2A5C');g.addColorStop(.75,'#C4553A');g.addColorStop(1,'#F4A340');X.fillStyle=g;X.fillRect(0,0,w,hz+4);X.fillStyle='#F4A340';X.fillRect(0,hz,w,h-hz);
+  for(let i=0;i<90;i++){const yy=rnd(i+11)*hz*.45;X.fillStyle=`rgba(255,255,255,${.15+rnd(i)*.5})`;X.beginPath();X.arc(rnd(i+3)*w,yy,1+rnd(i+5)*2.2,0,7);X.fill()}}
+function sunDisc(x,y,r){glow(x,y,r*3.2,'rgba(255,190,90,.55)',1);X.save();X.beginPath();X.arc(x,y,r,0,7);const g=X.createRadialGradient(x,y,0,x,y,r);g.addColorStop(0,'#FFF1C2');g.addColorStop(1,'#FFB347');X.fillStyle=g;X.fill();X.restore()}
+function dune(w,h,base,amp,f,off,c1,c2){X.beginPath();X.moveTo(0,h);for(let x=0;x<=w;x+=8)X.lineTo(x,base-amp*(Math.sin(x*f+off)*.6+Math.sin(x*f*2.3+off*1.7)*.4));X.lineTo(w,h);X.closePath();
+  const g=X.createLinearGradient(0,base-amp,0,h);g.addColorStop(0,c1);g.addColorStop(1,c2);X.fillStyle=g;X.fill()}
 function avatar(){const S=800;C2.width=C2.height=S;
-  const g=X.createRadialGradient(S/2,S/2,50,S/2,S/2,S*.7);g.addColorStop(0,'#1A3566');g.addColorStop(1,'#0A1224');X.fillStyle=g;X.fillRect(0,0,S,S);
-  grid(S,S,80);mark(S/2,S/2,270);}
-function banner(){const W2=2560,H2=1440;C2.width=W2;C2.height=H2;
-  const g=X.createLinearGradient(0,0,W2,H2);g.addColorStop(0,'#0A1224');g.addColorStop(1,'#13264A');X.fillStyle=g;X.fillRect(0,0,W2,H2);grid(W2,H2,90);
-  for(let i=0;i<60;i++){X.fillStyle=`rgba(160,200,255,${.06+rnd(i)*.12})`;X.beginPath();X.arc(rnd(i+3)*W2,rnd(i+9)*H2,2+rnd(i+5)*4,0,7);X.fill()}
-  // soft background icons, kept outside the 1546x423 safe area so they never cover the text
-  X.save();X.globalAlpha=.5;drop(330,520,1.3,G);drop(2230,900,1.3,D);bolt(2250,480,1.8,SP,1);barrel(330,960,.7);atom(1900,1150,120,8,.6);atom(650,260,90,7,.6);X.restore();
-  // safe area (centre 1546x423)
-  const sx=(W2-1546)/2,sy=(H2-423)/2;
-  mark(sx+230,H2/2,150);
-  X.save();X.direction='ltr';X.textAlign='left';X.textBaseline='middle';
-  X.font='900 150px Cairo';X.lineJoin='round';X.lineWidth=14;X.strokeStyle='rgba(4,8,18,.9)';
-  const words=NAME.split(' ');let x=sx+450;const y=H2/2-55;
-  words.forEach((w,i)=>{const col=i===words.length-1?G:WH;X.strokeText(w,x,y);X.fillStyle=col;X.fillText(w,x,y);x+=X.measureText(w+' ').width});
-  X.font='700 56px Cairo';X.fillStyle='#9FB0C8';X.fillText('Science explained in under a minute',sx+455,H2/2+70);
-  X.direction='rtl';X.textAlign='right';X.font='800 52px Cairo';X.fillStyle=D;X.fillText('العلوم في أقل من دقيقة',sx+1546-20,H2/2+150);
+  sky(S,S,560);sunDisc(400,540,120);
+  dune(S,S,600,25,.008,1.2,'#B8743A','#8A4F27');
+  pumpjack(390,640,1.25,.9);
+  dune(S,S,690,30,.01,3.1,'#7A4424','#4E2A17');
+  X.save();X.font='900 64px Cairo';X.textAlign='center';X.direction='ltr';X.lineJoin='round';X.lineWidth=10;X.strokeStyle='rgba(20,8,10,.9)';X.strokeText('?',560,300);X.fillStyle=G;X.fillText('?',560,300);X.restore();
+}
+function banner(){const W2=2560,H2=1440;C2.width=W2;C2.height=H2;const hz=930;
+  sky(W2,H2,hz);sunDisc(1720,hz-30,150);
+  dune(W2,H2,hz+10,40,.003,0.5,'#C9844A','#9A5A2E');
+  // distant pumps
+  pumpjack(2350,hz-2,.6,2.6,'#3A1E1A');
+  dune(W2,H2,hz+120,70,.0025,2.2,'#A8622F','#6E3A1C');
+  pumpjack(440,hz+150,1.6,.4);pumpjack(2050,hz+110,1.15,3.6);
+  dune(W2,H2,hz+300,60,.004,4.0,'#6E3A1C','#3E2012');
+  // name in the safe area (1546x423 centred)
+  const sx=(W2-1546)/2,cy=H2/2;
+  X.save();const sh=X.createLinearGradient(0,cy-250,0,cy+200);sh.addColorStop(0,'rgba(10,8,20,0)');sh.addColorStop(.5,'rgba(10,8,20,.35)');sh.addColorStop(1,'rgba(10,8,20,0)');X.fillStyle=sh;X.fillRect(0,cy-250,W2,450);X.restore();
+  X.save();X.direction='ltr';X.textAlign='center';X.textBaseline='middle';X.font='900 170px Cairo';X.lineJoin='round';X.lineWidth=18;X.strokeStyle='rgba(20,8,10,.92)';
+  const words=NAME.split(' ');const ws=words.map(w=>X.measureText(w).width),sp=X.measureText(' ').width,tot=ws.reduce((a,b)=>a+b,0)+sp*(words.length-1);
+  let x=W2/2-tot/2;X.textAlign='left';words.forEach((w,i)=>{X.strokeText(w,x,cy-80);X.fillStyle=i===words.length-1?G:WH;X.fillText(w,x,cy-80);x+=ws[i]+sp});
+  X.textAlign='center';X.font='800 58px Cairo';X.lineWidth=10;X.strokeText('Science explained in under a minute',W2/2,cy+50);X.fillStyle='#FFE9C7';X.fillText('Science explained in under a minute',W2/2,cy+50);
+  X.direction='rtl';X.font='800 56px Cairo';X.strokeText('العلوم في أقل من دقيقة',W2/2,cy+135);X.fillStyle=D;X.fillText('العلوم في أقل من دقيقة',W2/2,cy+135);
   X.restore();
 }
 window.ready.then(()=>{KIND==='avatar'?avatar():banner();window.done=true});
