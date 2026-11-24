@@ -1,6 +1,6 @@
 /* Episode: ليش نشوف سراب في الطريق؟ (inferior mirage, refraction in hot air). Scene functions take DESIGN time t (0..30). */
 const SKY1='#5FA8F5',SKY2='#CFE6FF',SAND='#D9B26F',ASP='#2E3440',HOT='#FF6A3D',COOL='#6FB8FF',RAY='#FFE45C';
-window.HIGHLIGHT=[['مويه',COOL],['الشمس',SP],['يسخّن',HOT],['تسخّن',HOT],['أحرّ',HOT],['الضوء',RAY],['ينحني',RAY],['السما',SKY1],['مخك',G],['تبعد',RED],
+window.HIGHLIGHT=[['ماء',COOL],['الشمس',SP],['يسخّن',HOT],['تسخّن',HOT],['أسخن',HOT],['الضوء',RAY],['ينحني',RAY],['السماء',SKY1],['دماغك',G],['ابتعدت',RED],
  ['water',COOL],['sun',SP],['asphalt',HOT],['hottest',HOT],['light',RAY],['bends',RAY],['sky',SKY1],['brain',G],['away',RED]];
 
 const WIN=[90,430,900,850]; // x,y,w,h viewing window
@@ -53,7 +53,7 @@ function S1(t){ // hook 0–4.2
 }
 function S2(t){ // hot asphalt 4.2–9.4
   const a=sceneAlpha(t,4.2,9.4);if(a<=0)return;X.save();X.globalAlpha=a;
-  chip(T('١ • الأسفلت يسخن','1 • Hot asphalt'),HOT,1);
+  chip(T('١ • الأسفلت يسخُن','1 • Hot asphalt'),HOT,1);
   const ii=eo(seg(t,4.2,4.8));sun(820,540,56,t,ii);
   const rays=seg(t,4.4,5.2);if(rays>0){X.save();X.globalAlpha*=rays;X.strokeStyle='rgba(255,228,92,.7)';X.lineWidth=6;X.setLineDash([18,14]);X.lineDashOffset=-t*60;
     [[760,600,300,1140],[790,610,540,1140],[830,620,780,1140]].forEach(l=>{X.beginPath();X.moveTo(l[0],l[1]);X.lineTo(l[2],l[3]);X.stroke()});X.setLineDash([]);X.restore()}
@@ -71,23 +71,23 @@ function S3(t){ // light bends 9.4–16.4
   const sp=seg(t,9.7,10.2)*(1-seg(t,11.2,11.6));if(sp>0){arrow(560,1095,840,1095,HOT,9,sp);txt(T('أسرع','Faster'),700,1050,40,HOT,900,'center',sp);
     arrow(560,655,700,655,COOL,9,sp);txt(T('أبطأ','Slower'),630,610,40,COOL,900,'center',sp)}
   ray(eio(seg(t,11.4,14.8)),1);
-  const lab=seg(t,13.2,13.6);txt(T('ضوء السما','Sky light'),330,470,40,RAY,800,'left',lab);
+  const lab=seg(t,13.2,13.6);txt(T('ضوء السماء','Sky light'),330,470,40,RAY,800,'left',lab);
   X.restore();
 }
 function S4(t){ // brain fooled 16.4–22.4
   const a=sceneAlpha(t,16.4,22.4);if(a<=0)return;X.save();X.globalAlpha=a;
-  chip(T('٣ • مخك ينخدع','3 • Your brain is fooled'),G,1);
+  chip(T('٣ • دماغك ينخدع','3 • Your brain is fooled'),G,1);
   layers(1);ground(t,.6);cloud(220,520,.9);eye(890,rayY(880)-5,1.1);ray(1,.55);
   const dl=seg(t,16.6,18.2);if(dl>0){const ex=880,ey=rayY(880),d=-2*K*(ex-600),len=Math.hypot(1,d),ux=-1/len,uy=-d/len,L=(1150-ey)/uy;
     X.save();X.strokeStyle=WH;X.lineWidth=6;X.setLineDash([16,12]);X.beginPath();X.moveTo(ex,ey);X.lineTo(ex+ux*L*dl,ey+uy*L*dl);X.stroke();X.setLineDash([]);X.restore();
     const im=seg(t,18.4,19.0);if(im>0){const px=ex+ux*L,py=1150;puddle(px,py-6,150,34,t,im);cloud(px,py-6,.38,im,true);
-      txt(T('بركة مويه؟','A puddle?'),px,1290,46,COOL,900,'center',seg(t,20.4,20.8))}}
-  txt(T('اللي يحسبه مخك','What your brain assumes'),640,760,36,WH,700,'center',seg(t,16.8,17.2)*(1-seg(t,19.6,20)));
+      txt(T('بركة ماء؟','A puddle?'),px,1290,46,COOL,900,'center',seg(t,20.4,20.8))}}
+  txt(T('ما يظنه دماغك','What your brain assumes'),640,760,36,WH,700,'center',seg(t,16.8,17.2)*(1-seg(t,19.6,20)));
   X.restore();
 }
 function S5(t){ // runs away 22.4–26.6
   const a=sceneAlpha(t,22.4,26.6);if(a<=0)return;X.save();X.globalAlpha=a;
-  chip(T('٤ • ليش تهرب؟','4 • Why it runs away'),RED,1);
+  chip(T('٤ • لماذا تبتعد؟','4 • Why it runs away'),RED,1);
   const p=eio(seg(t,22.6,26.4));roadScene(t*2,lerp(1000,790,p),1,lerp(260,200,p));
   car(540,lerp(1215,1150,p),lerp(1.0,.82,p));
   const ar=seg(t,23.0,23.4);if(ar>0)arrow(820,lerp(1000,790,p)+10,820,lerp(1000,790,p)-80,RED,9,ar);
@@ -97,15 +97,15 @@ function S6(t){ // payoff 26.6–30
   const a=sceneAlpha(t,26.6,31);if(a<=0)return;X.save();X.globalAlpha=a;
   chip(T('الخلاصة','Summary'),WH,1);
   const r1=back(seg(t,26.7,27.2)),r2=back(seg(t,27.0,27.5));
-  if(r1>0){X.save();X.translate(290,800);X.scale(r1,r1);puddle(0,0,190,70,t,1);cloud(0,0,.6,1,true);X.restore();txt(T('مو مويه','Not water'),290,940,48,COOL,900,'center',r1)}
+  if(r1>0){X.save();X.translate(290,800);X.scale(r1,r1);puddle(0,0,190,70,t,1);cloud(0,0,.6,1,true);X.restore();txt(T('ليس ماءً','Not water'),290,940,48,COOL,900,'center',r1)}
   stroked('=',545,800,140,WH,'center',seg(t,27.3,27.6),12);
   if(r2>0){X.save();X.translate(790,800);X.scale(r2,r2);rr(-170,-110,340,220,30);const g=X.createLinearGradient(0,-110,0,110);g.addColorStop(0,SKY1);g.addColorStop(1,SKY2);X.fillStyle=g;X.fill();cloud(0,0,.7);X.restore();
-    txt(T('صورة السما','The sky'),790,970,48,SKY1,900,'center',r2)}
+    txt(T('صورة السماء','The sky'),790,970,48,SKY1,900,'center',r2)}
   const f=back(seg(t,28.5,28.9));if(f>0){const lab=T('تابع للمزيد','Follow for more');X.save();X.translate(540,1180);X.scale(f,f);X.font='900 44px Cairo';const w=X.measureText(lab).width+90;
     rr(-w/2,-38,w,76,38);X.fillStyle=RED;X.fill();X.restore();txt(lab,540,1182,44,WH,900,'center',f)}
   X.restore();
 }
 function drawScenes(t){S1(t);S2(t);S3(t);S4(t);S5(t);S6(t)}
-function drawCover(){bg(3);roadScene(1.3,950,1,300);stroked(T('مو مويه!','Not water!'),540,330,T(150,130),COOL,'center',1,16);
+function drawCover(){bg(3);roadScene(1.3,950,1,300);stroked(T('ليس ماءً!','Not water!'),540,330,T(150,130),COOL,'center',1,16);
   const x0=430,y0=900;X.save();X.strokeStyle=RED;X.lineWidth=16;X.lineCap='round';X.beginPath();X.moveTo(x0,y0);X.lineTo(x0+220,y0+110);X.moveTo(x0+220,y0);X.lineTo(x0,y0+110);X.stroke();X.restore()}
 window.drawScenes=drawScenes;window.drawCover=drawCover;

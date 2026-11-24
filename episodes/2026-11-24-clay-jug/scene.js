@@ -1,6 +1,6 @@
 /* Episode: كيف الشربة تبرّد المويه؟ (evaporative cooling). Scene functions take DESIGN time t (0..30). */
 const CL='#C8693A',CLD='#8E4524',WA='#4FB3FF',HOT='#FF6A3D',COLD='#6FD3FF';
-window.HIGHLIGHT=[['كهربا',RED],['ثلج',COLD],['الشربة',CL],['تبخير',COLD],['التبخير',COLD],['حرارة',HOT],['تبرد',COLD],['تبرّد',COLD],['ناشف',SP],['الرطوبة',WA],['تعرق',WA],
+window.HIGHLIGHT=[['كهرباء',RED],['ثلج',COLD],['الفخار',CL],['الجرّة',CL],['التبخّر',COLD],['حرارة',HOT],['يبرد',COLD],['تبرّد',COLD],['أجفّ',SP],['الرطوبة',WA],['تتعرّق',WA],
  ['power',RED],['ice',COLD],['clay',CL],['jug',CL],['evaporat',COLD],['heat',HOT],['cool',COLD],['drier',SP],['humid',WA],['sweat',WA]];
 
 function jug(x,y,s,wet=0,t=0,cut=0,waterCol=WA){ // clay jug centred on its belly
@@ -47,7 +47,7 @@ function sun(x,y,r,t,a=1){X.save();X.globalAlpha*=a;glow(x,y,r*2.6,'rgba(255,200
 function S1(t){ // hook 0–4.2
   const a=sceneAlpha(t,-1,4.2);X.save();X.globalAlpha=a;
   const ti=eo(seg(t,0,.5));X.save();X.translate(0,lerp(-60,0,ti));X.globalAlpha*=ti;
-  stroked(T('تبريد بدون كهربا','Zero-power cooling'),540,340,T(96,88),CL,'center',1,12);X.restore();
+  stroked(T('تبريد بلا كهرباء','Zero-power cooling'),540,340,T(96,88),CL,'center',1,12);X.restore();
   const jd=back(seg(t,.15,.85));jug(540,lerp(300,800,jd),1.05,seg(t,1.0,3.5),t);
   const p1=back(seg(t,1.3,1.7));if(p1>0){X.save();X.translate(250,1130);X.scale(p1,p1);plug(0,0);X.restore();noSign(250,1130,1,seg(t,1.6,1.9))}
   const p2=back(seg(t,1.8,2.2));if(p2>0){X.save();X.translate(830,1130);X.scale(p2,p2);ice(0,0);X.restore();noSign(830,1130,1,seg(t,2.1,2.4))}
@@ -56,7 +56,7 @@ function S1(t){ // hook 0–4.2
 }
 function S2(t){ // pores 4.2–9.6
   const a=sceneAlpha(t,4.2,9.6);if(a<=0)return;X.save();X.globalAlpha=a;
-  chip(T('١ • سر الفخار','1 • The secret of clay'),CL,1);
+  chip(T('١ • سرّ الفخار','1 • The secret of clay'),CL,1);
   const ii=eo(seg(t,4.2,4.8));
   jug(230,760,.62,seg(t,7.8,9.4),t);
   // magnifier link
@@ -76,8 +76,8 @@ function S2(t){ // pores 4.2–9.6
   X.restore();
   X.save();X.globalAlpha*=ii;X.lineWidth=10;X.strokeStyle='#e9eef6';X.beginPath();X.arc(cx,cy,R,0,7);X.stroke();
   X.lineCap='round';X.lineWidth=26;X.beginPath();X.moveTo(cx+R*.72,cy+R*.72);X.lineTo(cx+R*.72+70,cy+R*.72+70);X.stroke();X.restore();
-  txt(T('جوا','Inside'),cx-170,cy-R-36,44,WA,800,'center',seg(t,4.6,5.0));
-  txt(T('برا','Outside'),cx+170,cy-R-36,44,HOT,800,'center',seg(t,4.6,5.0));
+  txt(T('داخل','Inside'),cx-170,cy-R-36,44,WA,800,'center',seg(t,4.6,5.0));
+  txt(T('خارج','Outside'),cx+170,cy-R-36,44,HOT,800,'center',seg(t,4.6,5.0));
   txt(T('فخار','Clay'),cx,cy+R+40,44,CL,900,'center',seg(t,4.8,5.2));
   X.restore();
 }
@@ -89,7 +89,7 @@ function S3(t){ // evaporation 9.6–17.6
   jug(450,830,1.15,1,t,seg(t,13.4,13.9),wc);
   // hot wind from the right
   const w=seg(t,9.8,10.4)*(1-seg(t,13.2,13.6)*.6);for(let i=0;i<3;i++){const ox=(t*220+i*120)%260;arrow(960-ox,640+i*120,880-ox,640+i*120,HOT,9,w*.9)}
-  txt(T('هوا حار وناشف','Hot dry air'),800,560,40,HOT,800,'center',w);
+  txt(T('هواء حار وجاف','Hot dry air'),800,560,40,HOT,800,'center',w);
   vapor(450,560,330,t,seg(t,10.0,10.8),16);
   txt(T('بخار','Vapor'),450,420,48,'#DCE6F5',800,'center',seg(t,10.6,11.0));
   // heat flowing out of the water into the evaporating beads
@@ -98,28 +98,28 @@ function S3(t){ // evaporation 9.6–17.6
     arrow(lerp(x1,x2,ph*.6),lerp(y1,y2,ph*.6),lerp(x1,x2,ph*.6+.35),lerp(y1,y2,ph*.6+.35),HOT,8,hf*(1-ph))}
     stroked(T('حرارة','Heat'),450,1170,58,HOT,'center',hf,9)}
   thermo(860,1120,700,lerp(.85,.35,cool),cool>.5?COLD:HOT,seg(t,15.4,15.8));
-  txt(T('تبرد!','Cooler!'),860,630,48,COLD,900,'center',seg(t,16.4,16.8));
+  txt(T('يبرد!','Cooler!'),860,630,48,COLD,900,'center',seg(t,16.4,16.8));
   X.restore();X.restore();
 }
 function S4(t){ // dry vs humid 17.6–22.8
   const a=sceneAlpha(t,17.6,22.8);if(a<=0)return;X.save();X.globalAlpha=a;
-  chip(T('٣ • الجو الناشف أحسن','3 • Dry air works best'),SP,1);
+  chip(T('٣ • الهواء الجاف أفضل','3 • Dry air works best'),SP,1);
   const d=eo(seg(t,17.8,18.4)),h=eo(seg(t,18.3,18.9)),hl=seg(t,21.3,21.6);
   // dry (right)
   X.save();X.globalAlpha*=d;sun(800,520,44,t);jug(740,880,.72,1,t);vapor(740,700,220,t*1.3,seg(t,19.8,20.4),16);
-  thermo(930,1120,760,lerp(.6,.25,seg(t,19.8,21)),COLD,1);txt(T('جو ناشف','Dry air'),740,1210,48,SP,900,'center',1);X.restore();
+  thermo(930,1120,760,lerp(.6,.25,seg(t,19.8,21)),COLD,1);txt(T('هواء جاف','Dry air'),740,1210,48,SP,900,'center',1);X.restore();
   // humid (left)
   X.save();X.globalAlpha*=h;
   if(hl>0){X.save();X.globalAlpha*=hl*(.6+.4*Math.sin(t*9));rr(150,450,340,820,40);X.lineWidth=8;X.strokeStyle=WA;X.stroke();X.restore()}
   X.fillStyle='#9fb0c8';[[260,520,60],[320,500,70],[380,525,55]].forEach(c=>{X.beginPath();X.arc(c[0],c[1],c[2],0,7);X.fill()});
   for(let i=0;i<6;i++){const ph=(t*.8+i/6)%1;drop(230+i*28,580+ph*60,.12,'rgba(120,190,255,.8)')}
   jug(320,880,.72,.5,t);vapor(320,700,200,t*.6,.35,4);
-  thermo(130,1120,760,.62,HOT,1);txt(T('جو رطب','Humid air'),320,1210,48,WA,900,'center',1);X.restore();
+  thermo(130,1120,760,.62,HOT,1);txt(T('هواء رطب','Humid air'),320,1210,48,WA,900,'center',1);X.restore();
   X.restore();
 }
 function S5(t){ // sweat 22.8–26.6
   const a=sceneAlpha(t,22.8,26.6);if(a<=0)return;X.save();X.globalAlpha=a;
-  chip(T('٤ • نفس فكرة العرق','4 • Same as sweating'),WA,1);
+  chip(T('٤ • مثل العرق تمامًا','4 • Same as sweating'),WA,1);
   const ii=back(seg(t,22.9,23.5));sun(820,520,50,t,seg(t,23.0,23.4));
   X.save();X.translate(500,860);X.scale(ii,ii);face(0,0,1.25,seg(t,23.6,25.0),t);X.restore();
   vapor(500,640,260,t,seg(t,24.8,25.4),12);
@@ -142,7 +142,7 @@ function drawScenes(t){S1(t);S2(t);S3(t);S4(t);S5(t);S6(t)}
 function drawCover(){
   bg(3);glow(540,900,700,'rgba(111,211,255,.18)',1);
   jug(540,1000,1.35,1,3);vapor(540,640,380,3,1,16);
-  stroked(T('تعرق','It sweats'),540,380,T(160,130),COLD,'center',1,16);
-  stroked(T('زيك!','like you!'),540,560,T(160,130),WH,'center',1,16);
+  stroked(T('تتعرّق','It sweats'),540,380,T(160,130),COLD,'center',1,16);
+  stroked(T('مثلك!','like you!'),540,560,T(160,130),WH,'center',1,16);
 }
 window.drawScenes=drawScenes;window.drawCover=drawCover;

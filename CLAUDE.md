@@ -5,10 +5,11 @@ The goal the owner set: steady growth toward YouTube monetization. Optimise for 
 **Every video also gets an English version** (owner's request, 2026-11-24): same animation, English captions, English voice, English title. Build and publish it too (see "English version" below).
 **The owner chose fully automatic publishing.** Publish only if every check below passes. If anything fails, publish nothing and report the failure.
 
-Language for everything the viewer sees or hears: **Hijazi Arabic dialect** (the owner's choice since 2026-11-24), kept clear and easy for any Arab viewer.
-Use Hijazi words naturally: «إيش» (what), «ليش» (why), «كدا» (not «كذا»), «دحين» (now), «مرّة» (very), «زي» (like), «حق» (belonging to), «بس», «يعني», «عشان», «يطلع/ينزل», «تشوف». Avoid Najdi markers such as «وش», «ذحين», «كذا», «مب». Keep science terms in plain standard Arabic.
-The 2026-11-23 reference episode is in a general Saudi dialect; copy its structure and pacing, not its wording.
-The TTS voice (`ar-SA-HamedNeural`) has a general Saudi accent; there is no Hijazi-specific voice, so the dialect comes from the wording. Spell the `tts` text the way a Hijazi speaker says it (e.g. «كدا», «دحين»).
+Language for everything the viewer sees or hears in Arabic: **simplified Modern Standard Arabic (فصحى مبسطة)** (owner's choice 2026-11-24, after dialect narration sounded bad).
+- `caption`: clear fusha without diacritics, short.
+- `tts`: the same sentence **fully vowelled with tashkeel** (e.g. «جَرَّةُ الفَخّارِ تُبَرِّدُ الماء!»), numbers written as words, «،» instead of «…». Diacritics are what make the voice pronounce correctly; never skip them.
+- Voice `ar-SA-HamedNeural` at rate `+5%` (the owner listened to samples and picked this). No dialect words in narration or on-screen labels.
+- The 2026-11-24 episodes are the reference for wording, tashkeel and labels.
 Report to the owner in Arabic.
 The skills mention `~/.claude/youtube/voice.md` and asking for the creator's videos: this channel has no voice file and nobody to ask during the run. The voice is the reference episode's style. Skip that step and do not wait for input. The skills' "ship it, or change it?" gate is replaced by the owner's standing approval above.
 
@@ -18,14 +19,14 @@ The skills mention `~/.claude/youtube/voice.md` and asking for the creator's vid
 - The two videos of a day must be on different topics and look different (different scenes and visual metaphors), so the channel never reads as mass-produced. YouTube does not monetise repetitive or templated content, so variety matters.
 - Video hosting: files committed to `main` are public at
   `https://raw.githubusercontent.com/hashem9966/youtube-shorts/main/<path>`. Metricool downloads the video from that URL.
-- Voice: edge-tts `ar-SA-HamedNeural`, rate `+25%` (host `speech.platform.bing.com` is allowed in this environment; `engine/voice.py` passes the session proxy).
+- Voice: edge-tts `ar-SA-HamedNeural`, rate `+5%` (host `speech.platform.bing.com` is allowed in this environment; `engine/voice.py` passes the session proxy).
 
 ## English version
 - `script.json` gets an `"en"` block: `{"title", "voice":"en-US-AndrewNeural", "rate":"+10%", "lines":[{"caption","tts"?}...]}` with exactly one entry per Arabic line (timing is shared). Write natural, punchy English for a global audience, not a word-for-word translation; keep each line ≤ 7 words.
 - In `scene.js`, write every on-screen word as `T('عربي','English')`, lay out multi-word headlines left-to-right when `LANG==='en'`, and use western digits in English (`T(AR(n), String(n))`). Set `window.HIGHLIGHT` with Arabic and English keywords. See the reference episode.
 - Hooks: the English hook is scored directly with `hookscore.py`; titles with `title.py`. Store the English title, description and tags under `"en"` in `meta.json`.
 - Build both with `engine/make.sh episodes/<ep>` → `video.mp4` and `video-en.mp4`. Preview English too: `node engine/render.js episodes/<ep> --lang en --preview ...`.
-- **Where English goes:** call Metricool `getBrandSettings`. If there is a second brand whose YouTube channel is the English channel, publish the English video there, with `getBestTimeToPostByNetwork` for that brand picking the time (2 slots ≥ 4 h apart). If no English brand exists yet, do NOT post English on the Arabic channel: commit the English files and say in the report that the English channel still needs to be connected.
+- **Where English goes:** the owner chose to post English on the SAME channel (brand 8317657), at **15:30** (video A) and **21:00** (video B) Asia/Riyadh. If `getBrandSettings` ever shows a second brand for an English channel, ask in the report before moving English there.
 - Owner review: the report arrives before the first publish time; the owner may reply with edits. With no reply, the scheduled posts go out.
 
 ## Steps
@@ -68,7 +69,7 @@ The skills mention `~/.claude/youtube/voice.md` and asking for the creator's vid
     - providers `[{"network":"youtube"}]`, media `[raw video URL]`, text = description, autoPublish true;
     - youtubeData `{"title":…, "type":"short", "privacy":"public", "tags":[…], "category":"EDUCATION", "madeForKids":false, "isAiGeneratedContent":false}`;
     - publicationDate `{"dateTime":"<today>T13:00:00"|"<today>T18:00:00","timezone":"Asia/Riyadh"}` for video A and B;
-    - firstCommentText: one short question to the viewers about the topic, in Hijazi Arabic, to start comments.
+    - firstCommentText: one short question to the viewers about the topic (fusha for Arabic, English for English), to start comments.
     Confirm the response shows the youtube provider PENDING or PUBLISHED.
 11. **Log.** Append a row to `log.md` with the date, topic, title, video path, Metricool plannerUrl and status. Commit and push.
 12. **Report** (the final message is sent to the owner's phone), in Arabic and short:
