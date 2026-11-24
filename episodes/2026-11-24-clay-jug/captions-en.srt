@@ -1,0 +1,67 @@
+1
+00:00:00,150 --> 00:00:01,910
+Zero watts… zero ice
+
+2
+00:00:01,910 --> 00:00:03,592
+yet this clay jug cools water!
+
+3
+00:00:03,592 --> 00:00:04,034
+How?
+
+4
+00:00:04,234 --> 00:00:05,693
+Clay is full of tiny pores
+
+5
+00:00:05,693 --> 00:00:07,005
+Water slowly seeps through them
+
+6
+00:00:07,005 --> 00:00:08,488
+out onto the jug's surface
+
+7
+00:00:08,688 --> 00:00:10,249
+Hot, dry air evaporates it
+
+8
+00:00:10,249 --> 00:00:12,328
+and evaporation needs energy: heat
+
+9
+00:00:12,328 --> 00:00:14,162
+It takes that heat from the water inside
+
+10
+00:00:14,162 --> 00:00:16,174
+so the water cools, with no power
+
+11
+00:00:16,374 --> 00:00:17,248
+The drier the air
+
+12
+00:00:17,248 --> 00:00:19,287
+the more it evaporates, the more it cools
+
+13
+00:00:19,287 --> 00:00:21,320
+In humid air? It barely works
+
+14
+00:00:21,520 --> 00:00:23,026
+Your body uses the same trick
+
+15
+00:00:23,026 --> 00:00:24,284
+when you sweat to cool down
+
+16
+00:00:24,484 --> 00:00:26,474
+So the clay jug sweats, just like you
+
+17
+00:00:26,474 --> 00:00:27,621
+to keep your water cold!

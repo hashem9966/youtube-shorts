@@ -1,0 +1,56 @@
+{
+ "ar": {
+  "title": "السراب في 33 ثانية: ليش الطريق يبان مبلول؟",
+  "cover_text": "مو مويه!",
+  "description": "ليش نشوف مويه في الطريق وقت الحر وهي مو موجودة؟ السراب: الأسفلت الحار يسخّن الهوا اللي فوقه، والضوء يغيّر سرعته بين الهوا الحار والبارد فينحني.\nضوء السما ينزل وينعطف لفوق ويدخل عينك من تحت، ومخك يحسبه جا مستقيم فيشوف السما على الأرض.\n\nوعشان كدا كل ما تقرّب له يبعد.\n\n#علوم #سراب #shorts",
+  "tags": [
+   "السراب",
+   "سراب الطريق",
+   "ليش نشوف سراب",
+   "انكسار الضوء",
+   "الضوء",
+   "فيزياء",
+   "علوم",
+   "الحر",
+   "الأسفلت",
+   "الهواء الساخن"
+  ],
+  "first_comment": "مين شاف السراب وحسبه مويه جد؟ 😅👇"
+ },
+ "en": {
+  "title": "That Puddle on the Road Is the Sky",
+  "cover_text": "Not water!",
+  "description": "Why does a hot road look wet when it is bone dry? A road mirage: hot asphalt heats the air above it, light changes speed between hot and cool air and bends.\nSky light dips down, curves back up and enters your eye from below. Your brain assumes it came in a straight line, so you see the sky on the road.\n\nThat is also why it keeps moving away as you drive closer.\n\n#science #physics #shorts",
+  "tags": [
+   "road mirage",
+   "mirage explained",
+   "why does the road look wet",
+   "inferior mirage",
+   "refraction",
+   "light bending",
+   "physics",
+   "science shorts",
+   "hot road",
+   "optical illusion"
+  ],
+  "first_comment": "Have you ever chased a road mirage? 👇"
+ },
+ "hooks": [
+  {
+   "ar": "تشوف مويه في الطريق قدامك… بس عمرها ما تكون موجودة! ليش؟",
+   "en": "You see water on the road ahead, but it is never there. Why?",
+   "score": 57,
+   "used": true
+  },
+  {
+   "en": "Your eyes are not lying: the road mirage is real light. How?",
+   "score": 44
+  }
+ ],
+ "facts": [
+  "Hot asphalt heats the layer of air directly above it (heat transfer).",
+  "Light travels slightly faster in hotter, less dense air (lower refractive index), so a gradient bends it (refraction).",
+  "In an inferior mirage, sky light curves upward near a hot surface and reaches the eye from below; the brain projects it straight back, showing an image of the sky on the ground.",
+  "The mirage recedes as you approach because it only appears at shallow viewing angles."
+ ]
+}

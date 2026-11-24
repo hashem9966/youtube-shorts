@@ -1,0 +1,232 @@
+{
+ "title": "السراب في 33 ثانية: ليش الطريق يبان مبلول؟",
+ "voice": "ar-SA-HamedNeural",
+ "rate": "+25%",
+ "design_duration": 30,
+ "tail": 0.9,
+ "lines": [
+  {
+   "caption": "تشوف مويه في الطريق قدامك",
+   "tts": "تشوف مويه في الطريق قدّامك",
+   "at": [
+    0.2,
+    1.6
+   ],
+   "scene_start": true
+  },
+  {
+   "caption": "بس عمرها ما تكون موجودة",
+   "tts": "بس عمرها ما تكون موجودة",
+   "at": [
+    1.6,
+    2.9
+   ]
+  },
+  {
+   "caption": "ليش؟",
+   "tts": "ليش؟",
+   "at": [
+    2.9,
+    4.2
+   ],
+   "pause_before": 0.25
+  },
+  {
+   "caption": "الشمس تسخّن الأسفلت مرة",
+   "tts": "الشمس تسخّن الأسفلت مرّة",
+   "at": [
+    4.4,
+    6.0
+   ],
+   "scene_start": true
+  },
+  {
+   "caption": "والأسفلت يسخّن الهوا اللي فوقه",
+   "tts": "والأسفلت يسخّن الهوا اللي فوقه",
+   "at": [
+    6.0,
+    7.6
+   ]
+  },
+  {
+   "caption": "فيصير الهوا تحت أحرّ من فوق",
+   "tts": "فيصير الهوا تحت أحرّ من فوق",
+   "at": [
+    7.6,
+    9.4
+   ]
+  },
+  {
+   "caption": "والضوء يغيّر سرعته بين الحار والبارد",
+   "tts": "والضوء يغيّر سرعته بين الحار والبارد",
+   "at": [
+    9.6,
+    11.4
+   ],
+   "scene_start": true
+  },
+  {
+   "caption": "فينحني بدل ما يمشي مستقيم",
+   "tts": "فينحني بدل ما يمشي مستقيم",
+   "at": [
+    11.4,
+    13.2
+   ]
+  },
+  {
+   "caption": "ضوء السما ينزل… وينعطف لفوق",
+   "tts": "ضوء السما ينزل، وينعطف لفوق",
+   "at": [
+    13.2,
+    14.8
+   ]
+  },
+  {
+   "caption": "ويدخل عينك من تحت",
+   "tts": "ويدخل عينك من تحت",
+   "at": [
+    14.8,
+    16.4
+   ]
+  },
+  {
+   "caption": "ومخك يحسب إن الضوء جا مستقيم",
+   "tts": "ومخّك يحسب إن الضوء جا مستقيم",
+   "at": [
+    16.6,
+    18.4
+   ],
+   "scene_start": true
+  },
+  {
+   "caption": "فيشوف السما على الأرض",
+   "tts": "فيشوف السما على الأرض",
+   "at": [
+    18.4,
+    20.4
+   ]
+  },
+  {
+   "caption": "وتبان لك زي بركة مويه",
+   "tts": "وتبان لك زي بركة مويه",
+   "at": [
+    20.4,
+    22.4
+   ]
+  },
+  {
+   "caption": "وكل ما تقرّب لها… تبعد",
+   "tts": "وكل ما تقرّب لها، تبعد",
+   "at": [
+    22.6,
+    24.6
+   ],
+   "scene_start": true
+  },
+  {
+   "caption": "لأن الزاوية تتغير معاك",
+   "tts": "لأن الزاوية تتغيّر معاك",
+   "at": [
+    24.6,
+    26.6
+   ]
+  },
+  {
+   "caption": "يعني اللي شفته مو مويه",
+   "tts": "يعني اللي شفته مو مويه",
+   "at": [
+    26.8,
+    28.4
+   ],
+   "scene_start": true
+  },
+  {
+   "caption": "هو صورة السما!",
+   "tts": "هو صورة السما!",
+   "at": [
+    28.4,
+    29.9
+   ]
+  }
+ ],
+ "sfx": {
+  "whoosh": [
+   4.2,
+   9.4,
+   16.4,
+   22.4,
+   26.6
+  ],
+  "pop": [
+   1.9,
+   2.95,
+   7.7,
+   18.4,
+   26.8,
+   27.0,
+   28.5
+  ],
+  "ding": [
+   20.5,
+   28.4
+  ]
+ },
+ "en": {
+  "title": "That Puddle on the Road Is the Sky",
+  "voice": "en-US-AndrewNeural",
+  "rate": "+10%",
+  "lines": [
+   {
+    "caption": "You see water on the road ahead"
+   },
+   {
+    "caption": "but it's never really there"
+   },
+   {
+    "caption": "Why?"
+   },
+   {
+    "caption": "The sun bakes the asphalt"
+   },
+   {
+    "caption": "and the asphalt heats the air above it"
+   },
+   {
+    "caption": "so the air near the ground is hottest"
+   },
+   {
+    "caption": "Light changes speed between hot and cool air"
+   },
+   {
+    "caption": "so it bends instead of going straight"
+   },
+   {
+    "caption": "Sky light dips down… then curves up"
+   },
+   {
+    "caption": "into your eye from below"
+   },
+   {
+    "caption": "Your brain assumes light travels straight"
+   },
+   {
+    "caption": "so it sees the sky on the ground"
+   },
+   {
+    "caption": "and it looks like a puddle"
+   },
+   {
+    "caption": "Drive closer, and it moves away"
+   },
+   {
+    "caption": "because the angle keeps changing"
+   },
+   {
+    "caption": "So what you saw wasn't water"
+   },
+   {
+    "caption": "it was a picture of the sky!"
+   }
+  ]
+ }
+}

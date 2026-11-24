@@ -1,0 +1,236 @@
+{
+ "title": "الشربة تبرّد المويه بـ 0 كهربا… كيف؟",
+ "voice": "ar-SA-HamedNeural",
+ "rate": "+25%",
+ "design_duration": 30,
+ "tail": 0.9,
+ "lines": [
+  {
+   "caption": "بدون كهربا… بدون ثلج",
+   "tts": "بدون كهربا، بدون ثلج",
+   "at": [
+    0.2,
+    1.5
+   ],
+   "scene_start": true
+  },
+  {
+   "caption": "والشربة تبرّد المويه!",
+   "tts": "والشربة تبرّد المويه!",
+   "at": [
+    1.5,
+    2.8
+   ]
+  },
+  {
+   "caption": "كيف؟",
+   "tts": "كيف؟",
+   "at": [
+    2.8,
+    4.2
+   ],
+   "pause_before": 0.25
+  },
+  {
+   "caption": "الفخار مليان فتحات صغيرة مرة",
+   "tts": "الفخار مليان فتحات صغيرة مرّة",
+   "at": [
+    4.4,
+    6.0
+   ],
+   "scene_start": true
+  },
+  {
+   "caption": "المويه ترشح منها شوية شوية",
+   "tts": "المويه ترشح منها شوية شوية",
+   "at": [
+    6.0,
+    7.8
+   ]
+  },
+  {
+   "caption": "وتطلع على سطح الشربة من برا",
+   "tts": "وتطلع على سطح الشربة من برّا",
+   "at": [
+    7.8,
+    9.6
+   ]
+  },
+  {
+   "caption": "الهوا الحار يبخّر هالمويه",
+   "tts": "الهوا الحار يبخّر هالمويه",
+   "at": [
+    9.8,
+    11.6
+   ],
+   "scene_start": true
+  },
+  {
+   "caption": "والتبخير يحتاج طاقة… يعني حرارة",
+   "tts": "والتبخير يحتاج طاقة، يعني حرارة",
+   "at": [
+    11.6,
+    13.6
+   ]
+  },
+  {
+   "caption": "ياخدها من المويه اللي جوا",
+   "tts": "ياخدها من المويه اللي جوّا",
+   "at": [
+    13.6,
+    15.6
+   ]
+  },
+  {
+   "caption": "فالمويه تبرد… بدون أي كهربا",
+   "tts": "فالمويه تبرد، بدون أي كهربا",
+   "at": [
+    15.6,
+    17.6
+   ]
+  },
+  {
+   "caption": "وكل ما كان الجو ناشف أكتر",
+   "tts": "وكل ما كان الجو ناشف أكتر",
+   "at": [
+    17.8,
+    19.8
+   ],
+   "scene_start": true
+  },
+  {
+   "caption": "التبخير يزيد… والتبريد يزيد",
+   "tts": "التبخير يزيد، والتبريد يزيد",
+   "at": [
+    19.8,
+    21.4
+   ]
+  },
+  {
+   "caption": "وفي الرطوبة يضعف",
+   "tts": "وفي الرطوبة يضعف",
+   "at": [
+    21.4,
+    22.8
+   ]
+  },
+  {
+   "caption": "ونفس الفكرة يسويها جسمك",
+   "tts": "ونفس الفكرة يسويها جسمك",
+   "at": [
+    23.0,
+    24.8
+   ],
+   "scene_start": true
+  },
+  {
+   "caption": "لما تعرق عشان تبرد",
+   "tts": "لمّا تعرق عشان تبرد",
+   "at": [
+    24.8,
+    26.6
+   ]
+  },
+  {
+   "caption": "يعني الشربة تعرق زيك",
+   "tts": "يعني الشربة تعرق زيّك",
+   "at": [
+    26.8,
+    28.4
+   ],
+   "scene_start": true
+  },
+  {
+   "caption": "عشان تبرّد مويتك!",
+   "tts": "عشان تبرّد مويتك!",
+   "at": [
+    28.4,
+    29.9
+   ]
+  }
+ ],
+ "sfx": {
+  "whoosh": [
+   4.2,
+   9.6,
+   17.6,
+   22.8,
+   26.6
+  ],
+  "pop": [
+   1.4,
+   1.6,
+   2.1,
+   2.9,
+   7.9,
+   8.3,
+   17.9,
+   21.3,
+   26.8,
+   27.0,
+   28.5
+  ],
+  "ding": [
+   16.4,
+   25.3
+  ]
+ },
+ "en": {
+  "title": "0 Watts, 0 Ice: The Clay Jug Cooling Trick",
+  "voice": "en-US-AndrewNeural",
+  "rate": "+10%",
+  "lines": [
+   {
+    "caption": "Zero watts… zero ice"
+   },
+   {
+    "caption": "yet this clay jug cools water!"
+   },
+   {
+    "caption": "How?"
+   },
+   {
+    "caption": "Clay is full of tiny pores"
+   },
+   {
+    "caption": "Water slowly seeps through them"
+   },
+   {
+    "caption": "out onto the jug's surface"
+   },
+   {
+    "caption": "Hot, dry air evaporates it"
+   },
+   {
+    "caption": "and evaporation needs energy: heat"
+   },
+   {
+    "caption": "It takes that heat from the water inside"
+   },
+   {
+    "caption": "so the water cools, with no power"
+   },
+   {
+    "caption": "The drier the air"
+   },
+   {
+    "caption": "the more it evaporates, the more it cools"
+   },
+   {
+    "caption": "In humid air? It barely works"
+   },
+   {
+    "caption": "Your body uses the same trick"
+   },
+   {
+    "caption": "when you sweat to cool down"
+   },
+   {
+    "caption": "So the clay jug sweats, just like you"
+   },
+   {
+    "caption": "to keep your water cold!"
+   }
+  ]
+ }
+}

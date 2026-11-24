@@ -1,0 +1,67 @@
+1
+00:00:00,150 --> 00:00:01,582
+You see water on the road ahead
+
+2
+00:00:01,582 --> 00:00:02,794
+but it's never really there
+
+3
+00:00:02,794 --> 00:00:03,273
+Why?
+
+4
+00:00:03,473 --> 00:00:04,665
+The sun bakes the asphalt
+
+5
+00:00:04,665 --> 00:00:06,231
+and the asphalt heats the air above it
+
+6
+00:00:06,231 --> 00:00:07,944
+so the air near the ground is hottest
+
+7
+00:00:08,144 --> 00:00:10,347
+Light changes speed between hot and cool air
+
+8
+00:00:10,347 --> 00:00:11,990
+so it bends instead of going straight
+
+9
+00:00:11,990 --> 00:00:14,014
+Sky light dips down… then curves up
+
+10
+00:00:14,014 --> 00:00:15,145
+into your eye from below
+
+11
+00:00:15,345 --> 00:00:17,031
+Your brain assumes light travels straight
+
+12
+00:00:17,031 --> 00:00:18,569
+so it sees the sky on the ground
+
+13
+00:00:18,569 --> 00:00:19,717
+and it looks like a puddle
+
+14
+00:00:19,917 --> 00:00:21,626
+Drive closer, and it moves away
+
+15
+00:00:21,626 --> 00:00:23,098
+because the angle keeps changing
+
+16
+00:00:23,298 --> 00:00:24,548
+So what you saw wasn't water
+
+17
+00:00:24,548 --> 00:00:25,905
+it was a picture of the sky!

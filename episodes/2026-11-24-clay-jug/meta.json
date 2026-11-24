@@ -1,0 +1,58 @@
+{
+ "ar": {
+  "title": "الشربة تبرّد المويه بـ 0 كهربا… كيف؟",
+  "cover_text": "تعرق زيك!",
+  "description": "كيف الشربة (الفخار) تبرّد المويه بدون كهربا ولا ثلج؟ السر في التبخير: المويه ترشح من فتحات الفخار الصغيرة، والهوا الحار يبخّرها، والتبخير ياخد الحرارة من المويه اللي جوا فتبرد.\nونفس الفكرة يسويها جسمك لما تعرق.\n\nكل ما كان الجو ناشف أكتر، التبريد يكون أقوى، وفي الرطوبة يضعف.\n\n#علوم #الشربة #shorts",
+  "tags": [
+   "الشربة",
+   "الزير",
+   "القربة",
+   "تبريد الماء",
+   "التبريد بالتبخير",
+   "الفخار",
+   "كيف تبرد الشربة الماء",
+   "تبريد بدون كهرباء",
+   "التبخر",
+   "علوم",
+   "فيزياء",
+   "العرق"
+  ],
+  "first_comment": "عندكم شربة في البيت؟ مويتها أبرد من الترمس ولا لا؟ 👇"
+ },
+ "en": {
+  "title": "0 Watts, 0 Ice: The Clay Jug Cooling Trick",
+  "cover_text": "It sweats like you!",
+  "description": "How does a clay jug cool water with zero electricity and zero ice? Evaporative cooling: water seeps through the tiny pores in the clay, hot dry air evaporates it, and evaporation pulls heat out of the water inside.\nYour body does the same thing when you sweat.\n\nIt works best in dry air and barely works in humid air.\n\n#science #physics #shorts",
+  "tags": [
+   "clay jug",
+   "clay pot water cooler",
+   "evaporative cooling",
+   "how clay pots cool water",
+   "zeer pot",
+   "cooling without electricity",
+   "evaporation",
+   "physics",
+   "science shorts",
+   "sweat cooling"
+  ],
+  "first_comment": "Would you drink from a clay jug instead of a fridge? 👇"
+ },
+ "hooks": [
+  {
+   "ar": "بدون كهربا… بدون ثلج… والشربة تبرّد المويه! كيف؟",
+   "en": "0 watts, 0 ice, but your clay jug still cools water. How?",
+   "score": 59,
+   "used": true
+  },
+  {
+   "en": "You lose water from a clay jug, and that is why it gets cold. Why?",
+   "score": 57
+  }
+ ],
+ "facts": [
+  "Porous clay lets water seep to the outer surface (general physics of porous earthenware).",
+  "Evaporation absorbs latent heat from the remaining liquid, cooling it (thermodynamics, latent heat of vaporization).",
+  "Evaporation is faster in dry air and slower in humid air (vapor pressure / relative humidity).",
+  "Human sweating cools the body by the same evaporation mechanism (physiology)."
+ ]
+}
