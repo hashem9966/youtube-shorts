@@ -1,0 +1,67 @@
+1
+00:00:00,150 --> 00:00:01,469
+Your ice cube never sinks
+
+2
+00:00:01,469 --> 00:00:02,775
+even though it's solid water!
+
+3
+00:00:02,775 --> 00:00:03,254
+Why?
+
+4
+00:00:03,454 --> 00:00:04,550
+When most things freeze
+
+5
+00:00:04,550 --> 00:00:06,548
+their molecules pack tight, and sink
+
+6
+00:00:06,548 --> 00:00:07,833
+Water does the opposite
+
+7
+00:00:08,033 --> 00:00:09,773
+Liquid water molecules are crowded
+
+8
+00:00:09,773 --> 00:00:11,678
+Freezing locks them with hydrogen bonds
+
+9
+00:00:11,678 --> 00:00:13,162
+into a six-sided lattice
+
+10
+00:00:13,162 --> 00:00:14,250
+full of empty gaps
+
+11
+00:00:14,450 --> 00:00:16,357
+So ice grows about 9% bigger
+
+12
+00:00:16,357 --> 00:00:17,892
+Same weight, bigger volume
+
+13
+00:00:17,892 --> 00:00:19,151
+so it floats on water
+
+14
+00:00:19,351 --> 00:00:21,020
+In winter, lakes freeze on top
+
+15
+00:00:21,020 --> 00:00:22,435
+and fish live on underneath
+
+16
+00:00:22,635 --> 00:00:24,208
+Tiny gaps inside the ice
+
+17
+00:00:24,208 --> 00:00:25,442
+are why it never sinks!

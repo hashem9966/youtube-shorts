@@ -1,0 +1,237 @@
+{
+ "title": "لماذا لا يدير القمر ظهره لنا؟ السر في 27 يومًا",
+ "voice": "ar-SA-HamedNeural",
+ "rate": "+5%",
+ "design_duration": 30,
+ "tail": 0.9,
+ "lines": [
+  {
+   "caption": "هناك وجه للقمر",
+   "tts": "هُناكَ وَجْهٌ لِلْقَمَر",
+   "at": [
+    0.2,
+    1.5
+   ],
+   "scene_start": true
+  },
+  {
+   "caption": "لن تراه أبدًا من الأرض!",
+   "tts": "لَنْ تَراهُ أبَدًا مِنَ الأرْض!",
+   "at": [
+    1.5,
+    2.9
+   ]
+  },
+  {
+   "caption": "لماذا؟",
+   "tts": "لِماذا؟",
+   "at": [
+    2.9,
+    4.2
+   ],
+   "pause_before": 0.25
+  },
+  {
+   "caption": "قد تظن أن القمر لا يدور",
+   "tts": "قَدْ تَظُنُّ أنَّ القَمَرَ لا يَدور",
+   "at": [
+    4.4,
+    6.0
+   ],
+   "scene_start": true
+  },
+  {
+   "caption": "لكنه يدور حول نفسه فعلًا",
+   "tts": "لكِنَّهُ يَدورُ حَوْلَ نَفْسِهِ فِعْلًا",
+   "at": [
+    6.0,
+    7.8
+   ]
+  },
+  {
+   "caption": "مرة كل ٢٧ يومًا تقريبًا",
+   "tts": "مَرَّةً كُلَّ سَبْعَةٍ وعِشْرينَ يَوْمًا تَقْريبًا",
+   "at": [
+    7.8,
+    9.6
+   ]
+  },
+  {
+   "caption": "وهي المدة نفسها",
+   "tts": "وهِيَ المُدَّةُ نَفْسُها",
+   "at": [
+    9.8,
+    11.4
+   ],
+   "scene_start": true
+  },
+  {
+   "caption": "التي يدور فيها حول الأرض",
+   "tts": "الَّتي يَدورُ فيها حَوْلَ الأرْض",
+   "at": [
+    11.4,
+    13.2
+   ]
+  },
+  {
+   "caption": "فكلما تقدّم قليلًا",
+   "tts": "فَكُلَّما تَقَدَّمَ قَليلًا",
+   "at": [
+    13.2,
+    14.8
+   ]
+  },
+  {
+   "caption": "استدار قليلًا نحونا",
+   "tts": "اسْتَدارَ قَليلًا نَحْوَنا",
+   "at": [
+    14.8,
+    16.6
+   ]
+  },
+  {
+   "caption": "والسبب جاذبية الأرض",
+   "tts": "والسَّبَبُ جاذِبِيّةُ الأرْض",
+   "at": [
+    16.8,
+    18.4
+   ],
+   "scene_start": true
+  },
+  {
+   "caption": "شدّت القمر ملايين السنين",
+   "tts": "شَدَّتِ القَمَرَ مَلايينَ السِّنين",
+   "at": [
+    18.4,
+    20.4
+   ]
+  },
+  {
+   "caption": "حتى أبطأت دورانه وقيّدته",
+   "tts": "حَتّى أبْطَأَتْ دَوَرانَهُ وقَيَّدَتْه",
+   "at": [
+    20.4,
+    22.6
+   ]
+  },
+  {
+   "caption": "ووجهه البعيد ليس مظلمًا",
+   "tts": "ووَجْهُهُ البَعيدُ لَيْسَ مُظْلِمًا",
+   "at": [
+    22.8,
+    24.8
+   ],
+   "scene_start": true
+  },
+  {
+   "caption": "فالشمس تضيئه أيضًا",
+   "tts": "فالشَّمْسُ تُضيئُهُ أيْضًا",
+   "at": [
+    24.8,
+    26.8
+   ]
+  },
+  {
+   "caption": "يدور لكنه يواجهنا دائمًا",
+   "tts": "يَدور، لكِنَّهُ يُواجِهُنا دائِمًا",
+   "at": [
+    27.0,
+    28.4
+   ],
+   "scene_start": true
+  },
+  {
+   "caption": "لذلك لن ترى وجهه الآخر!",
+   "tts": "لِذلِكَ لَنْ تَرى وَجْهَهُ الآخَر!",
+   "at": [
+    28.4,
+    29.9
+   ]
+  }
+ ],
+ "sfx": {
+  "whoosh": [
+   4.2,
+   9.6,
+   16.6,
+   22.6,
+   26.8
+  ],
+  "pop": [
+   1.6,
+   2.95,
+   4.6,
+   9.4,
+   13.3,
+   14.9,
+   26.9,
+   27.1,
+   28.5
+  ],
+  "ding": [
+   21.7,
+   25.0
+  ],
+  "spark": [
+   24.9
+  ]
+ },
+ "en": {
+  "title": "The Moon Does Spin. So Why Only 1 Side?",
+  "voice": "en-US-AndrewNeural",
+  "rate": "+10%",
+  "lines": [
+   {
+    "caption": "There's a side of the Moon"
+   },
+   {
+    "caption": "you will never see from Earth!"
+   },
+   {
+    "caption": "Why?"
+   },
+   {
+    "caption": "You might think it doesn't spin"
+   },
+   {
+    "caption": "but the Moon really does spin"
+   },
+   {
+    "caption": "once every 27 days or so"
+   },
+   {
+    "caption": "That's exactly the same time"
+   },
+   {
+    "caption": "it takes to circle Earth"
+   },
+   {
+    "caption": "So with every step forward"
+   },
+   {
+    "caption": "it turns a little toward us"
+   },
+   {
+    "caption": "The cause? Earth's gravity"
+   },
+   {
+    "caption": "tugged on it for millions of years"
+   },
+   {
+    "caption": "until its spin slowed and locked"
+   },
+   {
+    "caption": "And the far side isn't dark"
+   },
+   {
+    "caption": "the Sun lights it up too"
+   },
+   {
+    "caption": "It spins, yet always faces us"
+   },
+   {
+    "caption": "so you'll never see its other side!"
+   }
+  ]
+ }
+}

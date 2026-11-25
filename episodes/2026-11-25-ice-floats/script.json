@@ -1,0 +1,235 @@
+{
+ "title": "لماذا يطفو الثلج على الماء؟ السبب 9٪",
+ "voice": "ar-SA-HamedNeural",
+ "rate": "+5%",
+ "design_duration": 30,
+ "tail": 0.9,
+ "lines": [
+  {
+   "caption": "مكعّب الثلج لا يغرق أبدًا",
+   "tts": "مُكَعَّبُ الثَّلْجِ لا يَغْرَقُ أبَدًا",
+   "at": [
+    0.2,
+    1.6
+   ],
+   "scene_start": true
+  },
+  {
+   "caption": "مع أنه ماء صلب!",
+   "tts": "مَعَ أنَّهُ ماءٌ صُلْب!",
+   "at": [
+    1.6,
+    2.9
+   ]
+  },
+  {
+   "caption": "لماذا؟",
+   "tts": "لِماذا؟",
+   "at": [
+    2.9,
+    4.2
+   ],
+   "pause_before": 0.25
+  },
+  {
+   "caption": "معظم المواد عندما تتجمّد",
+   "tts": "مُعْظَمُ المَوادِّ عِنْدَما تَتَجَمَّد",
+   "at": [
+    4.4,
+    6.0
+   ],
+   "scene_start": true
+  },
+  {
+   "caption": "تتقارب جزيئاتها فتغرق",
+   "tts": "تَتَقارَبُ جُزَيْئاتُها فَتَغْرَق",
+   "at": [
+    6.0,
+    7.8
+   ]
+  },
+  {
+   "caption": "أما الماء فيفعل العكس",
+   "tts": "أمّا الماءُ فَيَفْعَلُ العَكْس",
+   "at": [
+    7.8,
+    9.6
+   ]
+  },
+  {
+   "caption": "جزيئات الماء السائل متزاحمة",
+   "tts": "جُزَيْئاتُ الماءِ السّائِلِ مُتَزاحِمة",
+   "at": [
+    9.8,
+    11.6
+   ],
+   "scene_start": true
+  },
+  {
+   "caption": "فتتماسك بروابط هيدروجينية",
+   "tts": "فَتَتَماسَكُ بِروابِطَ هَيْدروجينِيّة",
+   "at": [
+    11.6,
+    13.4
+   ]
+  },
+  {
+   "caption": "فتصنع شبكة سداسية",
+   "tts": "فَتَصْنَعُ شَبَكةً سُداسِيّة",
+   "at": [
+    13.4,
+    15.0
+   ]
+  },
+  {
+   "caption": "فيها فراغات كثيرة",
+   "tts": "فيها فَراغاتٌ كَثيرة",
+   "at": [
+    15.0,
+    16.6
+   ]
+  },
+  {
+   "caption": "فيكبر حجمه حوالي ٩٪",
+   "tts": "فَيَكْبُرُ حَجْمُهُ حَوالَيْ تِسْعَةٍ بِالمِئة",
+   "at": [
+    16.8,
+    18.8
+   ],
+   "scene_start": true
+  },
+  {
+   "caption": "الوزن نفسه في حجم أكبر",
+   "tts": "الوَزْنُ نَفْسُهُ في حَجْمٍ أكْبَر",
+   "at": [
+    18.8,
+    20.6
+   ]
+  },
+  {
+   "caption": "لذلك يطفو فوق الماء",
+   "tts": "لِذلِكَ يَطْفو فَوْقَ الماء",
+   "at": [
+    20.6,
+    22.6
+   ]
+  },
+  {
+   "caption": "وفي الشتاء يتجمّد سطح البحيرة",
+   "tts": "وفي الشِّتاءِ يَتَجَمَّدُ سَطْحُ البُحَيْرة",
+   "at": [
+    22.8,
+    24.8
+   ],
+   "scene_start": true
+  },
+  {
+   "caption": "وتعيش الأسماك تحته",
+   "tts": "وتَعيشُ الأسْماكُ تَحْتَه",
+   "at": [
+    24.8,
+    26.8
+   ]
+  },
+  {
+   "caption": "فراغات صغيرة في الثلج",
+   "tts": "فَراغاتٌ صَغيرةٌ في الثَّلْج",
+   "at": [
+    27.0,
+    28.4
+   ],
+   "scene_start": true
+  },
+  {
+   "caption": "تجعله لا يغرق أبدًا!",
+   "tts": "تَجْعَلُهُ لا يَغْرَقُ أبَدًا!",
+   "at": [
+    28.4,
+    29.9
+   ]
+  }
+ ],
+ "sfx": {
+  "whoosh": [
+   4.2,
+   9.6,
+   16.6,
+   22.6,
+   26.8
+  ],
+  "pop": [
+   1.0,
+   2.95,
+   7.8,
+   8.4,
+   13.4,
+   15.2,
+   17.0,
+   26.9,
+   27.1,
+   28.5
+  ],
+  "ding": [
+   20.9,
+   25.0
+  ]
+ },
+ "en": {
+  "title": "The 9% Reason Ice Floats on Water",
+  "voice": "en-US-AndrewNeural",
+  "rate": "+10%",
+  "lines": [
+   {
+    "caption": "Your ice cube never sinks"
+   },
+   {
+    "caption": "even though it's solid water!"
+   },
+   {
+    "caption": "Why?"
+   },
+   {
+    "caption": "When most things freeze"
+   },
+   {
+    "caption": "their molecules pack tight, and sink"
+   },
+   {
+    "caption": "Water does the opposite"
+   },
+   {
+    "caption": "Liquid water molecules are crowded"
+   },
+   {
+    "caption": "Freezing locks them with hydrogen bonds"
+   },
+   {
+    "caption": "into a six-sided lattice"
+   },
+   {
+    "caption": "full of empty gaps"
+   },
+   {
+    "caption": "So ice grows about 9% bigger"
+   },
+   {
+    "caption": "Same weight, bigger volume"
+   },
+   {
+    "caption": "so it floats on water"
+   },
+   {
+    "caption": "In winter, lakes freeze on top"
+   },
+   {
+    "caption": "and fish live on underneath"
+   },
+   {
+    "caption": "Tiny gaps inside the ice"
+   },
+   {
+    "caption": "are why it never sinks!"
+   }
+  ]
+ }
+}

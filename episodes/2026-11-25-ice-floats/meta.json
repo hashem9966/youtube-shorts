@@ -1,0 +1,70 @@
+{
+ "ar": {
+  "title": "لماذا يطفو الثلج على الماء؟ السبب 9٪",
+  "cover_text": "لا يغرق أبدًا!",
+  "description": "لماذا يطفو الثلج على الماء مع أنه ماء صلب؟ معظم المواد تتقارب جزيئاتها عندما تتجمّد فتغرق، أما الماء فيفعل العكس.\nعندما يتجمّد الماء تتماسك جزيئاته بروابط هيدروجينية في شبكة سداسية فيها فراغات، فيكبر حجمه حوالي 9٪ بالوزن نفسه، فيصبح أخفّ من الماء ويطفو.\n\nولهذا يتجمّد سطح البحيرة في الشتاء وتعيش الأسماك تحته.\n\n#علوم #كيمياء #shorts",
+  "tags": [
+   "لماذا يطفو الثلج",
+   "الثلج يطفو على الماء",
+   "كثافة الثلج",
+   "تجمد الماء",
+   "الروابط الهيدروجينية",
+   "شبكة الثلج السداسية",
+   "تمدد الماء عند التجمد",
+   "كيمياء",
+   "فيزياء",
+   "علوم",
+   "البحيرة المتجمدة"
+  ],
+  "first_comment": "هل كنت تعرف أن الماء يكبر حجمه عندما يتجمّد؟ 👇"
+ },
+ "en": {
+  "title": "The 9% Reason Ice Floats on Water",
+  "cover_text": "It never sinks!",
+  "description": "Why does ice float on water when it is solid water? Most substances pack tighter and sink when they freeze, but water does the opposite.\nAs water freezes, hydrogen bonds lock its molecules into a six-sided lattice full of empty gaps, so ice takes up about 9% more space with the same weight, making it less dense than water.\n\nThat is why lakes freeze on top and fish survive underneath.\n\n#science #chemistry #shorts",
+  "tags": [
+   "why does ice float",
+   "ice floats on water",
+   "density of ice",
+   "water expands when it freezes",
+   "hydrogen bonds",
+   "ice crystal lattice",
+   "hexagonal ice",
+   "chemistry",
+   "science shorts",
+   "frozen lake"
+  ],
+  "first_comment": "Did you know water gets bigger when it freezes? 👇"
+ },
+ "hooks": [
+  {
+   "ar": "مكعّب الثلج لا يغرق أبدًا، مع أنه ماء صلب! لماذا؟",
+   "en": "Your ice cube never sinks, and it is 9% to blame. Why?",
+   "score": 67,
+   "used": true
+  },
+  {
+   "en": "You drop ice in a glass and it never sinks. Why?",
+   "score": 55
+  },
+  {
+   "en": "90% of an iceberg is hidden, but why does it float at all?",
+   "score": 46
+  },
+  {
+   "en": "Every frozen thing sinks in its own liquid, except ice. Why?",
+   "score": 40
+  },
+  {
+   "en": "Ice is solid water, so why does it float on water?",
+   "score": 37
+  }
+ ],
+ "test": "strongest pattern (everyday mystery + surprising answer, like the mirage and clay-jug episodes)",
+ "facts": [
+  "Ice (Ih) is about 0.917 g/cm3 vs ~1.000 for liquid water at 0 C; water expands about 9% in volume on freezing (LibreTexts Chemistry 15.02 Structure of Ice; Live Science 'Why does ice float?').",
+  "Hydrogen bonds lock water molecules into an open hexagonal lattice with empty space, so ice is less dense than liquid water (LibreTexts; Lumen Learning 'The Structure of Ice').",
+  "Most substances are denser as solids than as liquids; e.g. solid paraffin wax sinks in molten wax (general chemistry).",
+  "Because ice floats, lakes freeze from the top and liquid water stays underneath where aquatic life survives the winter (LibreTexts)."
+ ]
+}

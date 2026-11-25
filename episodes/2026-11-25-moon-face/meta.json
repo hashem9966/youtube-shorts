@@ -1,0 +1,70 @@
+{
+ "ar": {
+  "title": "لماذا لا يدير القمر ظهره لنا؟ السر في 27 يومًا",
+  "cover_text": "النصف المخفي",
+  "description": "لماذا نرى دائمًا الوجه نفسه من القمر؟ القمر يدور حول نفسه فعلًا، مرة كل 27 يومًا تقريبًا، وهي المدة نفسها التي يدور فيها حول الأرض، لذلك يبقى وجهه القريب متجهًا نحونا. هذا يسمى التقييد المدّي.\nجاذبية الأرض أبطأت دوران القمر على مدى ملايين السنين حتى قيّدته.\n\nوالوجه البعيد ليس مظلمًا: الشمس تضيئه كما تضيء الوجه القريب.\n\n#علوم #فلك #shorts",
+  "tags": [
+   "وجه القمر",
+   "لماذا نرى وجها واحدا من القمر",
+   "الجانب البعيد من القمر",
+   "الجانب المظلم من القمر",
+   "التقييد المدي",
+   "دوران القمر",
+   "القمر",
+   "فلك",
+   "فضاء",
+   "علوم",
+   "جاذبية الأرض"
+  ],
+  "first_comment": "هل كنت تظن أن القمر لا يدور حول نفسه؟ 👇"
+ },
+ "en": {
+  "title": "The Moon Does Spin. So Why Only 1 Side?",
+  "cover_text": "The hidden half",
+  "description": "Why do we always see the same side of the Moon? The Moon really does spin, about once every 27 days, exactly the time it takes to orbit Earth, so the same face always points at us. This is called tidal locking.\nEarth's gravity slowed the Moon's spin over millions of years until it locked.\n\nAnd the far side isn't dark: the Sun lights it just like the near side.\n\n#science #space #shorts",
+  "tags": [
+   "tidal locking",
+   "why do we see one side of the moon",
+   "far side of the moon",
+   "dark side of the moon",
+   "does the moon rotate",
+   "moon rotation",
+   "moon facts",
+   "space",
+   "astronomy",
+   "science shorts"
+  ],
+  "first_comment": "Did you think the Moon doesn't spin at all? 👇"
+ },
+ "hooks": [
+  {
+   "ar": "هناك وجه للقمر لن تراه أبدًا من الأرض! لماذا؟",
+   "en": "You will never see 1 side of the Moon from Earth. Why?",
+   "score": 68,
+   "used": true
+  },
+  {
+   "en": "You have never seen half of the Moon in your life. Why?",
+   "score": 60
+  },
+  {
+   "en": "You have never seen the other side of the Moon. Why?",
+   "score": 58
+  },
+  {
+   "en": "For 4 billion years, the Moon has hidden one face from you. Why?",
+   "score": 51
+  },
+  {
+   "en": "Nobody saw the far side of the Moon until 1959. Why?",
+   "score": 49
+  }
+ ],
+ "test": "new subject area (space/astronomy) with a myth-busting angle ('the Moon does spin', 'the far side is not dark')",
+ "facts": [
+  "The Moon is tidally locked: its rotation period equals its orbital period (about 27.3 days, sidereal), so the same side always faces Earth (Univ. of Hawaii 'Exploring Our Fluid Earth: Tidal locking'; Astronomy.com; Live Science 'Why can't we see the far side of the moon?').",
+  "Earth's tidal forces slowed the Moon's rotation until it locked (Univ. of Hawaii; Live Science).",
+  "The far side is not dark; it receives sunlight like the near side ('dark side' is a misnomer) (Live Science; Farmers' Almanac/Space.com).",
+  "Ages kept vague ('millions of years'); no exact locking time is claimed."
+ ]
+}
