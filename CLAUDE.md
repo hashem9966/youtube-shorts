@@ -38,6 +38,7 @@ The skills mention `~/.claude/youtube/voice.md` and asking for the creator's vid
    and `YTEV01,YTEV05` (subscribers, gained). Append today's numbers to `log.md`.
    If competitors are set up in Metricool, also pull `YTCV06,YTCV04,YTCV07` (competitor video title, url, views) for the last 30 days.
 3. **Pick the topic.**
+   - **Default source: `content-plan.md`** (20-day plan, owner's request 2026-11-25). Take the row whose publish date is D+1: A from the A row, B from the B row. Follow its hook and visual idea, but improve them if analytics say so, and verify every fact as usual. Skip a row whose topic is already in `log.md`. When the plan runs out, go back to the rules below.
    - First, what our own channel shows works: which of our past topics/hook styles got the most views and longest average view duration.
    - Then competitor videos with the most views (step 2), and the `yt-viral` skill's way of judging: rank by how far a video beat its own channel's median, then name the formula. Make our own version of the *idea*; never copy a video's script, visuals, title or branding.
    - Otherwise take the first unchecked topic in `topics.md`.
