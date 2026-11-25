@@ -15,7 +15,8 @@ The skills mention `~/.claude/youtube/voice.md` and asking for the creator's vid
 
 ## Fixed facts
 - Metricool brand (blogId): `8317657`, timezone `Asia/Riyadh`, YouTube is the only connected network.
-- Publish times: video A at **13:00**, video B at **18:00** Asia/Riyadh (both inside Metricool's best-time window; the peak is 15:00–17:00). If a slot has already passed, use now + 20 minutes, and keep B at least 4 hours after A.
+- **Each run makes the NEXT day's content** (owner's standing order, 2026-11-25): the run on day D builds two videos and schedules them for day D+1 as soon as every check passes. Never ask the owner for approval or confirmation, and never stop to wait for a reply; the owner gave permanent approval.
+- Publish times (on day D+1): video A at **13:00**, video B at **18:00** Asia/Riyadh (both inside Metricool's best-time window; the peak is 15:00–17:00).
 - The two videos of a day must be on different topics and look different (different scenes and visual metaphors), so the channel never reads as mass-produced. YouTube does not monetise repetitive or templated content, so variety matters.
 - Video hosting: files committed to `main` are public at
   `https://raw.githubusercontent.com/hashem9966/youtube-shorts/main/<path>`. Metricool downloads the video from that URL.
@@ -27,11 +28,11 @@ The skills mention `~/.claude/youtube/voice.md` and asking for the creator's vid
 - Hooks: the English hook is scored directly with `hookscore.py`; titles with `title.py`. Store the English title, description and tags under `"en"` in `meta.json`.
 - Build both with `engine/make.sh episodes/<ep>` → `video.mp4` and `video-en.mp4`. Preview English too: `node engine/render.js episodes/<ep> --lang en --preview ...`.
 - **Where English goes:** the owner chose to post English on the SAME channel (brand 8317657), at **15:30** (video A) and **21:00** (video B) Asia/Riyadh. If `getBrandSettings` ever shows a second brand for an English channel, ask in the report before moving English there.
-- Owner review: the report arrives before the first publish time; the owner may reply with edits. With no reply, the scheduled posts go out.
+- Owner review: the report arrives the day before publishing; the owner may reply with edits. With no reply, the scheduled posts go out.
 
 ## Steps
 
-1. **Setup.** `pip install -q edge-tts`. Run from the repo root. **First check `log.md` and Metricool `getScheduledPosts` for today:** if today's videos already exist (they were made ahead of time), do not make new ones; only do steps 2, 11 and 12 (analytics, log, report), and use the spare time to prepare tomorrow's two episodes without scheduling them.
+1. **Setup.** `pip install -q edge-tts`. Run from the repo root. **First check `log.md` and Metricool `getScheduledPosts` for tomorrow (D+1):** if tomorrow's videos are already scheduled, do not make new ones; only do steps 2, 11 and 12. Also check that today's posts exist; if a day has nothing scheduled, report it.
 2. **Look at the channel first.** Use Metricool `getAnalyticsDataByMetrics` (brandId 8317657, last 14 days) with
    `YTVP17,YTVP05,YTVP06,YTVP08,YTVP09,YTVP11,YTVP12` (title, url, views, avg view duration, likes, comments, shares)
    and `YTEV01,YTEV05` (subscribers, gained). Append today's numbers to `log.md`.
@@ -68,12 +69,12 @@ The skills mention `~/.claude/youtube/voice.md` and asking for the creator's vid
     Then Metricool `createScheduledPost` with:
     - providers `[{"network":"youtube"}]`, media `[raw video URL]`, text = description, autoPublish true;
     - youtubeData `{"title":…, "type":"short", "privacy":"public", "tags":[…], "category":"EDUCATION", "madeForKids":false, "isAiGeneratedContent":false}`;
-    - publicationDate `{"dateTime":"<today>T13:00:00"|"<today>T18:00:00","timezone":"Asia/Riyadh"}` for video A and B;
+    - publicationDate `{"dateTime":"<tomorrow>T13:00:00"|"<tomorrow>T18:00:00","timezone":"Asia/Riyadh"}` for video A and B (English: `<tomorrow>T15:30:00` and `<tomorrow>T21:00:00`);
     - firstCommentText: one short question to the viewers about the topic (fusha for Arabic, English for English), to start comments.
     Confirm the response shows the youtube provider PENDING or PUBLISHED.
 11. **Log.** Append a row to `log.md` with the date, topic, title, video path, Metricool plannerUrl and status. Commit and push.
 12. **Report**, in Arabic and short. The owner asked to be told when the day's content is ready, so first send a push notification with the PushNotification tool (load it with ToolSearch "select:PushNotification"). Make it one Arabic line, e.g. «فيديوهات اليوم جاهزة: <A> و<B>، أول نشر 1:00 الظهر». Then write the final message:
-    - today's two videos: each one's title, publish time and Metricool link;
+    - tomorrow's two videos: each one's title, publish time and Metricool link;
     - channel numbers: subscribers, views in the last 24 h/7 d, and the best video so far;
     - what the numbers suggest for the next videos (one line);
     - anything that failed or needs the owner.
