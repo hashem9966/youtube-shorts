@@ -1,0 +1,240 @@
+{
+ "title": "لماذا نرى البرق أولًا؟ حيلة الـ 3 ثوان",
+ "voice": "ar-SA-HamedNeural",
+ "rate": "+5%",
+ "design_duration": 30,
+ "tail": 0.9,
+ "lines": [
+  {
+   "caption": "ترى البرق دائمًا أولًا",
+   "tts": "تَرى البَرْقَ دائِمًا أوَّلًا",
+   "at": [
+    0.2,
+    1.5
+   ],
+   "scene_start": true
+  },
+  {
+   "caption": "ثم يأتي صوت الرعد!",
+   "tts": "ثُمَّ يَأْتي صَوْتُ الرَّعْد!",
+   "at": [
+    1.5,
+    2.9
+   ]
+  },
+  {
+   "caption": "لماذا؟",
+   "tts": "لِماذا؟",
+   "at": [
+    2.9,
+    4.2
+   ],
+   "pause_before": 0.25
+  },
+  {
+   "caption": "البرق والرعد يحدثان معًا",
+   "tts": "البَرْقُ والرَّعْدُ يَحْدُثانِ مَعًا",
+   "at": [
+    4.4,
+    6.0
+   ],
+   "scene_start": true
+  },
+  {
+   "caption": "لكنهما يسافران إليك بسرعتين",
+   "tts": "لكِنَّهُما يُسافِرانِ إلَيْكَ بِسُرْعَتَيْن",
+   "at": [
+    6.0,
+    7.8
+   ]
+  },
+  {
+   "caption": "الضوء أسرع من الصوت بكثير",
+   "tts": "الضَّوْءُ أسْرَعُ مِنَ الصَّوْتِ بِكَثير",
+   "at": [
+    7.8,
+    9.6
+   ]
+  },
+  {
+   "caption": "الضوء يقطع المسافة في لحظة",
+   "tts": "الضَّوْءُ يَقْطَعُ المَسافَةَ في لَحْظة",
+   "at": [
+    9.8,
+    11.6
+   ],
+   "scene_start": true
+  },
+  {
+   "caption": "أما الصوت فيمشي ببطء",
+   "tts": "أمّا الصَّوْتُ فَيَمْشي بِبُطْء",
+   "at": [
+    11.6,
+    13.4
+   ]
+  },
+  {
+   "caption": "حوالي كيلومتر كل ثلاث ثوان",
+   "tts": "حَوالَيْ كيلومِتْرٍ كُلَّ ثَلاثِ ثَوان",
+   "at": [
+    13.4,
+    15.2
+   ]
+  },
+  {
+   "caption": "لذلك يتأخر الرعد",
+   "tts": "لِذلِكَ يَتَأَخَّرُ الرَّعْد",
+   "at": [
+    15.2,
+    16.6
+   ]
+  },
+  {
+   "caption": "وهنا حيلة مفيدة",
+   "tts": "وهُنا حيلَةٌ مُفيدة",
+   "at": [
+    16.8,
+    18.2
+   ],
+   "scene_start": true
+  },
+  {
+   "caption": "عُدّ الثواني بعد البرق",
+   "tts": "عُدَّ الثَّواني بَعْدَ البَرْق",
+   "at": [
+    18.2,
+    20.0
+   ]
+  },
+  {
+   "caption": "واقسمها على ثلاثة",
+   "tts": "واقْسِمْها عَلى ثَلاثة",
+   "at": [
+    20.0,
+    21.2
+   ]
+  },
+  {
+   "caption": "تعرف بعد العاصفة بالكيلومتر",
+   "tts": "تَعْرِفْ بُعْدَ العاصِفَةِ بِالكيلومِتْر",
+   "at": [
+    21.2,
+    22.6
+   ]
+  },
+  {
+   "caption": "٩ ثوان؟ إذن ٣ كيلومترات",
+   "tts": "تِسْعُ ثَوان؟ إذَنْ ثَلاثَةُ كيلومِتْرات",
+   "at": [
+    22.8,
+    25.0
+   ],
+   "scene_start": true
+  },
+  {
+   "caption": "كلما قصر الوقت اقتربت",
+   "tts": "كُلَّما قَصُرَ الوَقْتُ اقْتَرَبَت",
+   "at": [
+    25.0,
+    26.8
+   ]
+  },
+  {
+   "caption": "لهذا ترى البرق دائمًا أولًا!",
+   "tts": "لِهذا تَرى البَرْقَ دائِمًا أوَّلًا!",
+   "at": [
+    27.0,
+    29.9
+   ],
+   "scene_start": true
+  }
+ ],
+ "sfx": {
+  "whoosh": [
+   4.2,
+   9.6,
+   16.6,
+   22.6,
+   26.8
+  ],
+  "spark": [
+   0.3,
+   4.5,
+   23.0
+  ],
+  "boom": [
+   1.6,
+   15.4
+  ],
+  "pop": [
+   2.95,
+   13.5,
+   14.4,
+   20.1,
+   21.3,
+   27.1
+  ],
+  "ding": [
+   10.1,
+   22.0
+  ]
+ },
+ "en": {
+  "title": "How Far Is the Storm? Divide by 3",
+  "voice": "en-US-AndrewNeural",
+  "rate": "+10%",
+  "lines": [
+   {
+    "caption": "You always see lightning first"
+   },
+   {
+    "caption": "then the thunder rolls in!"
+   },
+   {
+    "caption": "Why?"
+   },
+   {
+    "caption": "Both happen at the same instant"
+   },
+   {
+    "caption": "but they travel to you differently"
+   },
+   {
+    "caption": "Light is way faster than sound"
+   },
+   {
+    "caption": "Light crosses the gap instantly"
+   },
+   {
+    "caption": "Sound just strolls along"
+   },
+   {
+    "caption": "about 1 km every 3 seconds"
+   },
+   {
+    "caption": "so the thunder arrives late"
+   },
+   {
+    "caption": "Here's a handy trick"
+   },
+   {
+    "caption": "Count the seconds after the flash"
+   },
+   {
+    "caption": "divide by three"
+   },
+   {
+    "caption": "and you get the storm's distance"
+   },
+   {
+    "caption": "9 seconds? About 3 km away"
+   },
+   {
+    "caption": "Shorter gap, closer storm"
+   },
+   {
+    "caption": "That's why you see lightning first!"
+   }
+  ]
+ }
+}

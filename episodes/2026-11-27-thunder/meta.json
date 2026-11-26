@@ -1,0 +1,71 @@
+{
+ "ar": {
+  "title": "لماذا نرى البرق أولًا؟ حيلة الـ 3 ثوان",
+  "cover_text": "احسب المسافة!",
+  "description": "لماذا نرى البرق قبل أن نسمع الرعد؟ البرق والرعد يحدثان في اللحظة نفسها، لكن الضوء أسرع من الصوت بكثير: الضوء يصلك في لحظة، والصوت يقطع حوالي كيلومتر كل 3 ثوان.\nوهذه حيلة لحساب بعد العاصفة: عُدّ الثواني بين البرق والرعد واقسمها على 3، فتعرف المسافة بالكيلومتر.\n\n#علوم #فيزياء #shorts",
+  "tags": [
+   "لماذا نرى البرق قبل الرعد",
+   "البرق والرعد",
+   "سرعة الصوت",
+   "سرعة الضوء",
+   "كم تبعد العاصفة",
+   "الرعد",
+   "البرق",
+   "العواصف",
+   "فيزياء",
+   "علوم",
+   "قاعدة الثلاث ثواني"
+  ],
+  "first_comment": "جرّب في العاصفة القادمة: كم ثانية عددت بين البرق والرعد؟ 👇"
+ },
+ "en": {
+  "title": "How Far Is the Storm? Divide by 3",
+  "cover_text": "Count the seconds!",
+  "description": "Why do you see lightning before you hear thunder? Both happen at the same instant, but light is far faster than sound: light reaches you almost instantly, while sound covers about 1 km every 3 seconds.\nThe trick: count the seconds between the flash and the thunder and divide by 3 to get the storm's distance in kilometers (divide by 5 for miles).\n\n#science #physics #shorts",
+  "tags": [
+   "lightning before thunder",
+   "why do we see lightning before thunder",
+   "speed of sound",
+   "speed of light",
+   "how far away is lightning",
+   "flash to bang",
+   "thunderstorm",
+   "physics",
+   "science shorts",
+   "weather"
+  ],
+  "first_comment": "Next storm, try it: how many seconds did you count? 👇"
+ },
+ "hooks": [
+  {
+   "ar": "ترى البرق دائمًا أولًا، ثم يأتي صوت الرعد! لماذا؟",
+   "en": "You see lightning before you hear it, every time. Why?",
+   "score": 59,
+   "used": true
+  },
+  {
+   "en": "3 seconds of silence after lightning means 1 km. Why?",
+   "score": 47
+  },
+  {
+   "en": "Lightning strikes once, but you get the news twice. Why?",
+   "score": 46
+  },
+  {
+   "en": "You can measure a storm with just your fingers. How?",
+   "score": 46
+  },
+  {
+   "en": "Count the seconds after lightning and you know how far it is. How?",
+   "score": 43
+  }
+ ],
+ "test": "new hook formula: a practical 'try it yourself' trick (count ÷ 3)",
+ "facts": [
+  "Divide the seconds between lightning and thunder by 3 for kilometers (by 5 for miles) (NOAA JetStream 'Lightning safety / Fast Facts'; NWS 'Thunder').",
+  "Sound travels about 343 m/s in air (≈1 km per 3 s); speed varies with temperature (NOAA; NASA Glenn 'Speed of sound').",
+  "Light travels ~300,000 km/s, so the flash arrives practically instantly at storm distances (standard physics).",
+  "Lightning and thunder are produced by the same event (NWS 'Thunder').",
+  "No safety advice given in the video beyond the distance trick."
+ ]
+}

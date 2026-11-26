@@ -1,0 +1,67 @@
+1
+00:00:00,150 --> 00:00:01,615
+You always see lightning first
+
+2
+00:00:01,615 --> 00:00:02,726
+then the thunder rolls in!
+
+3
+00:00:02,726 --> 00:00:03,206
+Why?
+
+4
+00:00:03,406 --> 00:00:04,777
+Both happen at the same instant
+
+5
+00:00:04,777 --> 00:00:06,095
+but they travel to you differently
+
+6
+00:00:06,095 --> 00:00:07,764
+Light is way faster than sound
+
+7
+00:00:07,964 --> 00:00:09,514
+Light crosses the gap instantly
+
+8
+00:00:09,514 --> 00:00:10,780
+Sound just strolls along
+
+9
+00:00:10,780 --> 00:00:12,835
+about 1 km every 3 seconds
+
+10
+00:00:12,835 --> 00:00:14,300
+so the thunder arrives late
+
+11
+00:00:14,500 --> 00:00:15,410
+Here's a handy trick
+
+12
+00:00:15,410 --> 00:00:16,962
+Count the seconds after the flash
+
+13
+00:00:16,962 --> 00:00:17,884
+divide by three
+
+14
+00:00:17,884 --> 00:00:19,353
+and you get the storm's distance
+
+15
+00:00:19,553 --> 00:00:22,108
+9 seconds? About 3 km away
+
+16
+00:00:22,108 --> 00:00:23,797
+Shorter gap, closer storm
+
+17
+00:00:23,997 --> 00:00:25,501
+That's why you see lightning first!

@@ -1,0 +1,67 @@
+1
+00:00:00,150 --> 00:00:01,155
+You pay for cold air
+
+2
+00:00:01,155 --> 00:00:02,708
+but your AC never makes any!
+
+3
+00:00:02,708 --> 00:00:03,150
+How?
+
+4
+00:00:03,350 --> 00:00:04,943
+Inside it flows a special fluid
+
+5
+00:00:04,943 --> 00:00:06,104
+through pipes inside your room
+
+6
+00:00:06,104 --> 00:00:07,818
+It evaporates and soaks up heat
+
+7
+00:00:08,018 --> 00:00:09,439
+then carries that heat outside
+
+8
+00:00:09,439 --> 00:00:11,117
+where the compressor squeezes it hard
+
+9
+00:00:11,117 --> 00:00:12,505
+until it's hotter than the street
+
+10
+00:00:12,505 --> 00:00:14,001
+so it dumps the heat outdoors
+
+11
+00:00:14,201 --> 00:00:15,962
+Then it squeezes through a tiny valve
+
+12
+00:00:15,962 --> 00:00:18,035
+its pressure drops, and it turns icy
+
+13
+00:00:18,035 --> 00:00:19,320
+and heads back in to repeat
+
+14
+00:00:19,520 --> 00:00:21,141
+That's why the outdoor unit blows
+
+15
+00:00:21,141 --> 00:00:22,766
+hot air: it's your home's heat!
+
+16
+00:00:22,966 --> 00:00:24,345
+Your AC doesn't make cold
+
+17
+00:00:24,345 --> 00:00:25,642
+it moves your heat outside!

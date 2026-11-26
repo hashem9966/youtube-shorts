@@ -1,0 +1,70 @@
+{
+ "ar": {
+  "title": "كيف يعمل المكيف؟ شرح الدورة في 3 خطوات",
+  "cover_text": "ينقل الحرارة!",
+  "description": "كيف يعمل المكيف ويبرد الغرفة؟ المكيف لا يصنع البرودة، بل ينقل حرارة بيتك إلى الخارج في دورة من 3 خطوات: سائل التبريد (الفريون) يتبخر في الأنابيب داخل غرفتك فيمتص حرارة الهواء، ثم يضغطه الضاغط في الوحدة الخارجية فيسخن أكثر من هواء الشارع ويطرد حرارته، ثم يمر من فتحة ضيقة فينخفض ضغطه ويبرد ويعود.\nولهذا تخرج ريح حارة من الوحدة الخارجية: إنها حرارة بيتك.\n\n#علوم #فيزياء #shorts",
+  "tags": [
+   "كيف يعمل المكيف",
+   "المكيف",
+   "دورة التبريد",
+   "الفريون",
+   "ضاغط المكيف",
+   "الوحدة الخارجية للمكيف",
+   "لماذا يخرج هواء حار من المكيف",
+   "التبريد",
+   "فيزياء",
+   "علوم",
+   "التكييف"
+  ],
+  "first_comment": "هل لاحظت الهواء الحار الذي يخرج من الوحدة الخارجية للمكيف؟ 👇"
+ },
+ "en": {
+  "title": "How an Air Conditioner Works in 3 Steps",
+  "cover_text": "It moves heat!",
+  "description": "How does an air conditioner cool your room? It never makes cold. It moves your home's heat outside in a 3-step refrigeration cycle: refrigerant evaporates in the indoor coil and soaks up heat, the compressor squeezes it until it is hotter than the outdoor air so it dumps that heat outside, then it passes a tiny expansion valve, its pressure drops, it turns icy and heads back in.\nThat is why the outdoor unit blows hot air: it is your home's heat.\n\n#science #physics #shorts",
+  "tags": [
+   "how does an air conditioner work",
+   "air conditioner",
+   "refrigeration cycle",
+   "refrigerant",
+   "AC compressor",
+   "expansion valve",
+   "why does the AC outdoor unit blow hot air",
+   "HVAC explained",
+   "physics",
+   "science shorts"
+  ],
+  "first_comment": "Ever felt the hot air from an AC's outdoor unit? 👇"
+ },
+ "hooks": [
+  {
+   "ar": "تدفع ثمن الهواء البارد، والمكيّف لا يصنع أي برودة! كيف؟",
+   "en": "You pay for cold air, but your AC never makes any. How?",
+   "score": 62,
+   "used": true
+  },
+  {
+   "en": "Your AC has 0 cold inside it. So how does it cool you?",
+   "score": 57
+  },
+  {
+   "en": "Put your hand by your AC's outdoor unit: why is it hot?",
+   "score": 47
+  },
+  {
+   "en": "Your AC pumps heat out of your room like water. How?",
+   "score": 47
+  },
+  {
+   "en": "Your AC doesn't make cold. It moves heat outside. How?",
+   "score": 46
+  }
+ ],
+ "test": "strongest pattern (everyday mystery + surprising answer)",
+ "facts": [
+  "Refrigerant evaporates in the indoor (evaporator) coil and absorbs heat from indoor air (Penn State EGEE 102 'How Air Conditioners Work'; Carrier 'How do air conditioners work').",
+  "The compressor raises the refrigerant's pressure and temperature; the outdoor condenser coil and fan release that heat outside (Penn State EGEE 102; Carrier; Live Science).",
+  "An expansion valve / metering device lowers the refrigerant's pressure and temperature before it returns to the indoor coil (ACHR News refrigeration cycle guide).",
+  "An AC moves heat rather than creating cold; the outdoor unit's hot exhaust is heat removed from the home (standard thermodynamics; Live Science)."
+ ]
+}

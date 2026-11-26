@@ -1,0 +1,236 @@
+{
+ "title": "كيف يعمل المكيف؟ شرح الدورة في 3 خطوات",
+ "voice": "ar-SA-HamedNeural",
+ "rate": "+5%",
+ "design_duration": 30,
+ "tail": 0.9,
+ "lines": [
+  {
+   "caption": "تدفع ثمن الهواء البارد",
+   "tts": "تَدْفَعُ ثَمَنَ الهَواءِ البارِد",
+   "at": [
+    0.2,
+    1.6
+   ],
+   "scene_start": true
+  },
+  {
+   "caption": "والمكيّف لا يصنع أي برودة!",
+   "tts": "والمُكَيِّفُ لا يَصْنَعُ أيَّ بُرودة!",
+   "at": [
+    1.6,
+    2.9
+   ]
+  },
+  {
+   "caption": "كيف؟",
+   "tts": "كَيْف؟",
+   "at": [
+    2.9,
+    4.2
+   ],
+   "pause_before": 0.25
+  },
+  {
+   "caption": "داخل المكيّف سائل خاص",
+   "tts": "داخِلَ المُكَيِّفِ سائِلٌ خاصّ",
+   "at": [
+    4.4,
+    6.0
+   ],
+   "scene_start": true
+  },
+  {
+   "caption": "يمر في أنابيب داخل غرفتك",
+   "tts": "يَمُرُّ في أنابيبَ داخِلَ غُرْفَتِك",
+   "at": [
+    6.0,
+    7.8
+   ]
+  },
+  {
+   "caption": "فيتبخّر ويمتص حرارة الهواء",
+   "tts": "فَيَتَبَخَّرُ ويَمْتَصُّ حَرارَةَ الهَواء",
+   "at": [
+    7.8,
+    9.6
+   ]
+  },
+  {
+   "caption": "ثم يحمل الحرارة إلى الخارج",
+   "tts": "ثُمَّ يَحْمِلُ الحَرارَةَ إلى الخارِج",
+   "at": [
+    9.8,
+    11.6
+   ],
+   "scene_start": true
+  },
+  {
+   "caption": "هناك يضغطه الضاغط بقوة",
+   "tts": "هُناكَ يَضْغَطُهُ الضّاغِطُ بِقُوّة",
+   "at": [
+    11.6,
+    13.4
+   ]
+  },
+  {
+   "caption": "فيسخن أكثر من هواء الشارع",
+   "tts": "فَيَسْخُنُ أكْثَرَ مِنْ هَواءِ الشّارِع",
+   "at": [
+    13.4,
+    15.0
+   ]
+  },
+  {
+   "caption": "فيطرد حرارته في الخارج",
+   "tts": "فَيَطْرُدُ حَرارَتَهُ في الخارِج",
+   "at": [
+    15.0,
+    16.6
+   ]
+  },
+  {
+   "caption": "ثم يمر من فتحة ضيقة",
+   "tts": "ثُمَّ يَمُرُّ مِنْ فَتْحَةٍ ضَيِّقة",
+   "at": [
+    16.8,
+    18.6
+   ],
+   "scene_start": true
+  },
+  {
+   "caption": "فينخفض ضغطه ويبرد جدًا",
+   "tts": "فَيَنْخَفِضُ ضَغْطُهُ ويَبْرُدُ جِدًّا",
+   "at": [
+    18.6,
+    20.6
+   ]
+  },
+  {
+   "caption": "ويعود لغرفتك ليكرر الرحلة",
+   "tts": "ويَعودُ إلى غُرْفَتِكَ لِيُكَرِّرَ الرِّحْلة",
+   "at": [
+    20.6,
+    22.6
+   ]
+  },
+  {
+   "caption": "لهذا تخرج من الوحدة الخارجية",
+   "tts": "لِهذا تَخْرُجُ مِنَ الوَحْدَةِ الخارِجِيّة",
+   "at": [
+    22.8,
+    24.8
+   ],
+   "scene_start": true
+  },
+  {
+   "caption": "ريح حارة… هي حرارة بيتك!",
+   "tts": "ريحٌ حارّة، هِيَ حَرارَةُ بَيْتِك!",
+   "at": [
+    24.8,
+    26.8
+   ]
+  },
+  {
+   "caption": "المكيّف لا يصنع البرد",
+   "tts": "المُكَيِّفُ لا يَصْنَعُ البَرْد",
+   "at": [
+    27.0,
+    28.4
+   ],
+   "scene_start": true
+  },
+  {
+   "caption": "بل ينقل حرارتك للخارج!",
+   "tts": "بَلْ يَنْقُلُ حَرارَتَكَ إلى الخارِج!",
+   "at": [
+    28.4,
+    29.9
+   ]
+  }
+ ],
+ "sfx": {
+  "whoosh": [
+   4.2,
+   9.6,
+   16.6,
+   22.6,
+   26.8
+  ],
+  "pop": [
+   2.0,
+   2.95,
+   7.9,
+   11.7,
+   17.0,
+   26.9,
+   27.1,
+   28.5
+  ],
+  "ding": [
+   19.0,
+   25.0
+  ],
+  "boom": [
+   11.8
+  ]
+ },
+ "en": {
+  "title": "How an Air Conditioner Works in 3 Steps",
+  "voice": "en-US-AndrewNeural",
+  "rate": "+10%",
+  "lines": [
+   {
+    "caption": "You pay for cold air"
+   },
+   {
+    "caption": "but your AC never makes any!"
+   },
+   {
+    "caption": "How?"
+   },
+   {
+    "caption": "Inside it flows a special fluid"
+   },
+   {
+    "caption": "through pipes inside your room"
+   },
+   {
+    "caption": "It evaporates and soaks up heat"
+   },
+   {
+    "caption": "then carries that heat outside"
+   },
+   {
+    "caption": "where the compressor squeezes it hard"
+   },
+   {
+    "caption": "until it's hotter than the street"
+   },
+   {
+    "caption": "so it dumps the heat outdoors"
+   },
+   {
+    "caption": "Then it squeezes through a tiny valve"
+   },
+   {
+    "caption": "its pressure drops, and it turns icy"
+   },
+   {
+    "caption": "and heads back in to repeat"
+   },
+   {
+    "caption": "That's why the outdoor unit blows"
+   },
+   {
+    "caption": "hot air: it's your home's heat!"
+   },
+   {
+    "caption": "Your AC doesn't make cold"
+   },
+   {
+    "caption": "it moves your heat outside!"
+   }
+  ]
+ }
+}
