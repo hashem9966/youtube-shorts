@@ -13,6 +13,10 @@
 | 2026-11-26 | الثلج يطفو (إنجليزي) | The 9% Reason Ice Floats on Water | episodes/2026-11-25-ice-floats/video-en.mp4 | https://app.metricool.com/planner/calendar?blogId=8317657&openWithPostUuid=-2088195535692084897 | مجدول 26/11 15:30 |
 | 2026-11-26 | وجه القمر (عربي) | لماذا لا يدير القمر ظهره لنا؟ السر في 27 يومًا | episodes/2026-11-25-moon-face/video.mp4 | https://app.metricool.com/planner/calendar?blogId=8317657&openWithPostUuid=-674678841628735427 | مجدول 26/11 18:00 |
 | 2026-11-26 | وجه القمر (إنجليزي) | The Moon Does Spin. So Why Only 1 Side? | episodes/2026-11-25-moon-face/video-en.mp4 | https://app.metricool.com/planner/calendar?blogId=8317657&openWithPostUuid=4271699708623798592 | مجدول 26/11 21:00 |
+| 2026-11-27 | المكيّف (عربي) | كيف يعمل المكيف؟ شرح الدورة في 3 خطوات | episodes/2026-11-27-ac-cooling/video.mp4 | https://app.metricool.com/planner/calendar?blogId=8317657&openWithPostUuid=-8847308800259112002 | مجدول 27/11 13:00 |
+| 2026-11-27 | المكيّف (إنجليزي) | How an Air Conditioner Works in 3 Steps | episodes/2026-11-27-ac-cooling/video-en.mp4 | https://app.metricool.com/planner/calendar?blogId=8317657&openWithPostUuid=4238282241585204130 | مجدول 27/11 15:30 |
+| 2026-11-27 | البرق قبل الرعد (عربي) | لماذا نرى البرق أولًا؟ حيلة الـ 3 ثوان | episodes/2026-11-27-thunder/video.mp4 | https://app.metricool.com/planner/calendar?blogId=8317657&openWithPostUuid=2610889483300586951 | مجدول 27/11 18:00 |
+| 2026-11-27 | البرق قبل الرعد (إنجليزي) | How Far Is the Storm? Divide by 3 | episodes/2026-11-27-thunder/video-en.mp4 | https://app.metricool.com/planner/calendar?blogId=8317657&openWithPostUuid=-3668936854332814345 | مجدول 27/11 21:00 |
 
 ## أرقام القناة اليومية
 | التاريخ | المشتركين | مشاهدات ٢٤ ساعة | مشاهدات ٧ أيام | أفضل فيديو | ملاحظة |
