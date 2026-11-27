@@ -17,6 +17,10 @@
 | 2026-11-27 | المكيّف (إنجليزي) | How an Air Conditioner Works in 3 Steps | episodes/2026-11-27-ac-cooling/video-en.mp4 | https://app.metricool.com/planner/calendar?blogId=8317657&openWithPostUuid=4238282241585204130 | مجدول 27/11 15:30 |
 | 2026-11-27 | البرق قبل الرعد (عربي) | لماذا نرى البرق أولًا؟ حيلة الـ 3 ثوان | episodes/2026-11-27-thunder/video.mp4 | https://app.metricool.com/planner/calendar?blogId=8317657&openWithPostUuid=2610889483300586951 | مجدول 27/11 18:00 |
 | 2026-11-27 | البرق قبل الرعد (إنجليزي) | How Far Is the Storm? Divide by 3 | episodes/2026-11-27-thunder/video-en.mp4 | https://app.metricool.com/planner/calendar?blogId=8317657&openWithPostUuid=-3668936854332814345 | مجدول 27/11 21:00 |
+| 2026-11-28 | تحلية ماء البحر (عربي) | كيف تعمل محطات التحلية؟ شرح في 37 ثانية | episodes/2026-11-28-desalination/video.mp4 | https://app.metricool.com/planner/calendar?blogId=8317657&openWithPostUuid=6821045537853688065 | مجدول 28/11 13:00 |
+| 2026-11-28 | تحلية ماء البحر (إنجليزي) | Desalination Explained in 2 Methods | episodes/2026-11-28-desalination/video-en.mp4 | https://app.metricool.com/planner/calendar?blogId=8317657&openWithPostUuid=-8303045663833242043 | مجدول 28/11 15:30 |
+| 2026-11-28 | لون السماء (عربي) | لون السماء في 36 ثانية: الأزرق والأحمر | episodes/2026-11-28-sky-colors/video.mp4 | https://app.metricool.com/planner/calendar?blogId=8317657&openWithPostUuid=-1603356041546219349 | مجدول 28/11 18:00 |
+| 2026-11-28 | لون السماء (إنجليزي) | Blue Sky, Red Sunset: 1 Simple Reason | episodes/2026-11-28-sky-colors/video-en.mp4 | https://app.metricool.com/planner/calendar?blogId=8317657&openWithPostUuid=8411976339403392003 | مجدول 28/11 21:00 |
 
 ## أرقام القناة اليومية
 | التاريخ | المشتركين | مشاهدات ٢٤ ساعة | مشاهدات ٧ أيام | أفضل فيديو | ملاحظة |
