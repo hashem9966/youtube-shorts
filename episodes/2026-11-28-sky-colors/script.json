@@ -1,0 +1,234 @@
+{
+ "title": "لون السماء في 36 ثانية: الأزرق والأحمر",
+ "voice": "ar-SA-HamedNeural",
+ "rate": "+5%",
+ "design_duration": 30,
+ "tail": 0.9,
+ "lines": [
+  {
+   "caption": "السماء تحمرّ وقت الغروب",
+   "tts": "السَّماءُ تَحْمَرُّ وَقْتَ الغُروب",
+   "at": [
+    0.2,
+    1.6
+   ],
+   "scene_start": true
+  },
+  {
+   "caption": "لسبب واحد بسيط",
+   "tts": "لِسَبَبٍ واحِدٍ بَسيط",
+   "at": [
+    1.6,
+    2.9
+   ]
+  },
+  {
+   "caption": "ما هو؟",
+   "tts": "ما هُوَ؟",
+   "at": [
+    2.9,
+    4.2
+   ],
+   "pause_before": 0.25
+  },
+  {
+   "caption": "ضوء الشمس أبيض",
+   "tts": "ضَوْءُ الشَّمْسِ أبْيَض",
+   "at": [
+    4.4,
+    5.8
+   ],
+   "scene_start": true
+  },
+  {
+   "caption": "لكنه خليط من كل الألوان",
+   "tts": "لكِنَّهُ خَليطٌ مِنْ كُلِّ الأَلْوان",
+   "at": [
+    5.8,
+    7.6
+   ]
+  },
+  {
+   "caption": "من الأحمر إلى الأزرق",
+   "tts": "مِنَ الأحْمَرِ إلى الأزْرَق",
+   "at": [
+    7.6,
+    9.6
+   ]
+  },
+  {
+   "caption": "وعندما يدخل الهواء",
+   "tts": "وعِنْدَما يَدْخُلُ الهَواء",
+   "at": [
+    9.8,
+    11.2
+   ],
+   "scene_start": true
+  },
+  {
+   "caption": "تصطدم الألوان بجزيئاته الصغيرة",
+   "tts": "تَصْطَدِمُ الأَلْوانُ بِجُزَيْئاتِهِ الصَّغيرة",
+   "at": [
+    11.2,
+    13.2
+   ]
+  },
+  {
+   "caption": "فيتشتت الأزرق في كل اتجاه",
+   "tts": "فَيَتَشَتَّتُ الأزْرَقُ في كُلِّ اتِّجاه",
+   "at": [
+    13.2,
+    15.0
+   ]
+  },
+  {
+   "caption": "فتبدو السماء زرقاء",
+   "tts": "فَتَبْدو السَّماءُ زَرْقاء",
+   "at": [
+    15.0,
+    16.6
+   ]
+  },
+  {
+   "caption": "أما وقت الغروب",
+   "tts": "أمّا وَقْتَ الغُروب",
+   "at": [
+    16.8,
+    18.2
+   ],
+   "scene_start": true
+  },
+  {
+   "caption": "فيمر الضوء في هواء أطول",
+   "tts": "فَيَمُرُّ الضَّوْءُ في هَواءٍ أطْوَلَ بِكَثير",
+   "at": [
+    18.2,
+    20.2
+   ]
+  },
+  {
+   "caption": "فيتشتت الأزرق قبل أن يصلك",
+   "tts": "فَيَتَشَتَّتُ الأزْرَقُ قَبْلَ أنْ يَصِلَك",
+   "at": [
+    20.2,
+    22.6
+   ]
+  },
+  {
+   "caption": "ولا يبقى إلا الأحمر والبرتقالي",
+   "tts": "ولا يَبْقى إلّا الأحْمَرُ والبُرْتُقالِيّ",
+   "at": [
+    22.8,
+    24.8
+   ],
+   "scene_start": true
+  },
+  {
+   "caption": "فتتلون السماء بالأحمر",
+   "tts": "فَتَتَلَوَّنُ السَّماءُ بِالأحْمَر",
+   "at": [
+    24.8,
+    26.8
+   ]
+  },
+  {
+   "caption": "الهواء نفسه يصنع اللونين",
+   "tts": "الهَواءُ نَفْسُهُ يَصْنَعُ اللَّوْنَيْن",
+   "at": [
+    27.0,
+    28.4
+   ],
+   "scene_start": true
+  },
+  {
+   "caption": "الأزرق ظهرًا والأحمر غروبًا!",
+   "tts": "الأزْرَقَ ظُهْرًا، والأحْمَرَ غُروبًا!",
+   "at": [
+    28.4,
+    29.9
+   ]
+  }
+ ],
+ "sfx": {
+  "whoosh": [
+   4.2,
+   9.6,
+   16.6,
+   22.6,
+   26.8
+  ],
+  "pop": [
+   2.95,
+   5.9,
+   13.3,
+   15.1,
+   27.1,
+   28.5
+  ],
+  "ding": [
+   16.0,
+   25.0
+  ],
+  "spark": [
+   11.3
+  ]
+ },
+ "en": {
+  "title": "Blue Sky, Red Sunset: 1 Simple Reason",
+  "voice": "en-US-AndrewNeural",
+  "rate": "+10%",
+  "lines": [
+   {
+    "caption": "The sky turns red at sunset"
+   },
+   {
+    "caption": "for one simple reason"
+   },
+   {
+    "caption": "What is it?"
+   },
+   {
+    "caption": "Sunlight looks white"
+   },
+   {
+    "caption": "but it's a mix of all colors"
+   },
+   {
+    "caption": "from red all the way to blue"
+   },
+   {
+    "caption": "When it enters the air"
+   },
+   {
+    "caption": "the colors hit tiny air molecules"
+   },
+   {
+    "caption": "Blue scatters in every direction"
+   },
+   {
+    "caption": "so the sky looks blue"
+   },
+   {
+    "caption": "But at sunset"
+   },
+   {
+    "caption": "light crosses far more air"
+   },
+   {
+    "caption": "Blue scatters away before reaching you"
+   },
+   {
+    "caption": "only red and orange remain"
+   },
+   {
+    "caption": "painting the sky red"
+   },
+   {
+    "caption": "The same air makes both colors"
+   },
+   {
+    "caption": "blue at noon, red at sunset!"
+   }
+  ]
+ }
+}

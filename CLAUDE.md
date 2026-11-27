@@ -50,7 +50,7 @@ The skills mention `~/.claude/youtube/voice.md` and asking for the creator's vid
 5. **Script (follow the `yt-script` skill).** Write 5 hooks, translate each to English and score them with
    `python3 .claude/skills/yt-script/hookscore.py --hook "..."` (the scorer only reads English), keep the best.
    The structure is a hook (≤4 s, an open question), then the mechanism in 3–5 beats with one idea per beat, a one-line payoff, and a last line that loops back to the first.
-   14–18 caption lines, each ≤ 6 words; total voice ≈ 30–40 s (the final video must stay under 60 s).
+   14–16 caption lines, each ≤ 6 words; aim for a 30–35 s Arabic video (Friday review 2026-11-27: shorter videos for higher completion; the final video must stay under 60 s).
 6. **Build the episode** in `episodes/<YYYY-MM-DD>-<slug>/`:
    - `script.json`: same schema as the reference episode. `caption` is what's shown, `tts` is what's spoken (write numbers as words, e.g. «أربعمية», and use «،» instead of «…»), `at` = [start,end] in DESIGN time (0–30 s), `scene_start` true on the first line of each scene, `sfx` in design time (whoosh at scene changes; pop/ding/spark/boom where they fit).
    - `scene.js`: original animation drawn with the helpers in `engine/lib.js` (txt, stroked, chip, rr, arrow, glow, drop, bolt, flames, burst, barrel, sceneAlpha, seg/eo/back…). Define scene functions on design time, then `drawScenes(t)` and `drawCover()` and export both on `window`. Read the reference episode's `scene.js` before writing.

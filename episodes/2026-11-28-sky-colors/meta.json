@@ -1,0 +1,69 @@
+{
+ "ar": {
+  "title": "لون السماء في 36 ثانية: الأزرق والأحمر",
+  "cover_text": "الهواء نفسه!",
+  "description": "لماذا السماء زرقاء والغروب أحمر؟ ضوء الشمس الأبيض خليط من كل الألوان. عندما يدخل الهواء تصطدم الألوان بجزيئاته الصغيرة، فيتشتت الأزرق في كل اتجاه أكثر من غيره، فتبدو السماء زرقاء.\nوقت الغروب يمر الضوء في هواء أطول بكثير، فيتشتت الأزرق قبل أن يصلك ولا يبقى إلا الأحمر والبرتقالي.\n\n#علوم #فيزياء #shorts",
+  "tags": [
+   "لماذا السماء زرقاء",
+   "لماذا الغروب أحمر",
+   "لون السماء",
+   "تشتت الضوء",
+   "تشتت رايلي",
+   "الغروب",
+   "ضوء الشمس",
+   "ألوان الضوء",
+   "فيزياء",
+   "علوم"
+  ],
+  "first_comment": "أيهما أجمل عندك: سماء الظهر الزرقاء أم الغروب الأحمر؟ 👇"
+ },
+ "en": {
+  "title": "Blue Sky, Red Sunset: 1 Simple Reason",
+  "cover_text": "Same air!",
+  "description": "Why is the sky blue and the sunset red? Sunlight looks white but is a mix of all colors. When it enters the air, it hits tiny air molecules and blue light scatters in every direction far more than red, so the sky looks blue (Rayleigh scattering).\nAt sunset, light crosses much more air, so the blue scatters away before reaching you and only red and orange remain.\n\n#science #physics #shorts",
+  "tags": [
+   "why is the sky blue",
+   "why are sunsets red",
+   "Rayleigh scattering",
+   "sky color",
+   "sunset colors",
+   "light scattering",
+   "sunlight",
+   "physics",
+   "science shorts",
+   "atmosphere"
+  ],
+  "first_comment": "Blue noon sky or red sunset: which do you prefer? 👇"
+ },
+ "hooks": [
+  {
+   "ar": "السماء تحمرّ وقت الغروب لسبب واحد بسيط، ما هو؟",
+   "en": "Your sky turns red at sunset for 1 simple reason. Why?",
+   "score": 56,
+   "used": true
+  },
+  {
+   "en": "Why is your sky blue at noon but red at sunset?",
+   "score": 46
+  },
+  {
+   "en": "The same sun paints your sky blue, then red. How?",
+   "score": 44
+  },
+  {
+   "en": "The sky isn't blue. Air throws blue light at you. Why?",
+   "score": 42
+  },
+  {
+   "en": "Sunlight is white, so why is your sky blue?",
+   "score": 40
+  }
+ ],
+ "test": "new hook formula: 'one simple reason' teaser; myth/explanation style",
+ "facts": [
+  "Sunlight is a mix of colors (visible spectrum) (standard physics; NASA Space Place 'Why is the sky blue?').",
+  "Air molecules scatter shorter (blue) wavelengths much more than longer (red) ones: Rayleigh scattering (NASA Space Place; NOAA SciJinks).",
+  "At sunrise/sunset sunlight passes through more atmosphere, so blue is scattered out and reds/oranges reach the eye (NOAA SciJinks 'Why is the sky blue / sunsets red').",
+  "Violet-vs-blue detail omitted for simplicity; no numbers used."
+ ]
+}

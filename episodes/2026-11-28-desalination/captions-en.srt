@@ -1,0 +1,67 @@
+1
+00:00:00,150 --> 00:00:01,655
+You may have drunk seawater today
+
+2
+00:00:01,655 --> 00:00:02,984
+without tasting any salt!
+
+3
+00:00:02,984 --> 00:00:03,426
+How?
+
+4
+00:00:03,626 --> 00:00:06,080
+Saudi Arabia leads the world in desalination
+
+5
+00:00:06,080 --> 00:00:07,382
+using two main methods
+
+6
+00:00:07,382 --> 00:00:09,425
+Method one: boil the seawater
+
+7
+00:00:09,625 --> 00:00:11,048
+Only the water evaporates
+
+8
+00:00:11,048 --> 00:00:12,346
+the salt stays at the bottom
+
+9
+00:00:12,346 --> 00:00:14,039
+Cool the steam: fresh water!
+
+10
+00:00:14,239 --> 00:00:16,156
+Method two: reverse osmosis
+
+11
+00:00:16,156 --> 00:00:17,760
+Push seawater with huge pressure
+
+12
+00:00:17,760 --> 00:00:19,487
+against a membrane with tiny holes
+
+13
+00:00:19,487 --> 00:00:21,480
+Water slips through, salt gets stuck
+
+14
+00:00:21,680 --> 00:00:23,180
+It's the most common method today
+
+15
+00:00:23,180 --> 00:00:24,828
+because it saves a lot of energy
+
+16
+00:00:25,028 --> 00:00:26,329
+So the water in your glass
+
+17
+00:00:26,329 --> 00:00:27,607
+may once have been in the sea!

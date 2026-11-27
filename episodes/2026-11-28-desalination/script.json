@@ -1,0 +1,238 @@
+{
+ "title": "كيف تعمل محطات التحلية؟ شرح في 37 ثانية",
+ "voice": "ar-SA-HamedNeural",
+ "rate": "+5%",
+ "design_duration": 30,
+ "tail": 0.9,
+ "lines": [
+  {
+   "caption": "ربما شربت اليوم ماء بحر",
+   "tts": "رُبَّما شَرِبْتَ اليَوْمَ ماءَ بَحْر",
+   "at": [
+    0.2,
+    1.6
+   ],
+   "scene_start": true
+  },
+  {
+   "caption": "من دون أن تشعر بالملح!",
+   "tts": "مِنْ دونِ أنْ تَشْعُرَ بِالمِلْح!",
+   "at": [
+    1.6,
+    2.9
+   ]
+  },
+  {
+   "caption": "كيف؟",
+   "tts": "كَيْف؟",
+   "at": [
+    2.9,
+    4.2
+   ],
+   "pause_before": 0.25
+  },
+  {
+   "caption": "السعودية أكبر منتج للماء المحلّى",
+   "tts": "السُّعودِيَّةُ أكْبَرُ مُنْتِجٍ لِلْماءِ المُحَلّى",
+   "at": [
+    4.4,
+    6.2
+   ],
+   "scene_start": true
+  },
+  {
+   "caption": "وتحلّيه بطريقتين",
+   "tts": "وتُحَلّيهِ بِطَريقَتَيْن",
+   "at": [
+    6.2,
+    7.6
+   ]
+  },
+  {
+   "caption": "الأولى: نغلي ماء البحر",
+   "tts": "الأولى: نَغْلي ماءَ البَحْر",
+   "at": [
+    7.6,
+    9.6
+   ]
+  },
+  {
+   "caption": "فيتبخر الماء وحده",
+   "tts": "فَيَتَبَخَّرُ الماءُ وَحْدَه",
+   "at": [
+    9.8,
+    11.4
+   ],
+   "scene_start": true
+  },
+  {
+   "caption": "ويبقى الملح في القاع",
+   "tts": "ويَبْقى المِلْحُ في القاع",
+   "at": [
+    11.4,
+    13.0
+   ]
+  },
+  {
+   "caption": "ثم نبرّد البخار فيصير عذبًا",
+   "tts": "ثُمَّ نُبَرِّدُ البُخارَ فَيَصيرُ ماءً عَذْبًا",
+   "at": [
+    13.0,
+    15.0
+   ]
+  },
+  {
+   "caption": "والثانية: التناضح العكسي",
+   "tts": "والثّانِيَةُ: التَّناضُحُ العَكْسِيّ",
+   "at": [
+    15.2,
+    17.0
+   ],
+   "scene_start": true
+  },
+  {
+   "caption": "نضغط ماء البحر بقوة",
+   "tts": "نَضْغَطُ ماءَ البَحْرِ بِقُوَّة",
+   "at": [
+    17.0,
+    18.6
+   ]
+  },
+  {
+   "caption": "على غشاء فيه ثقوب دقيقة",
+   "tts": "عَلى غِشاءٍ فيهِ ثُقوبٌ دَقيقَةٌ جِدًّا",
+   "at": [
+    18.6,
+    20.6
+   ]
+  },
+  {
+   "caption": "يمر الماء ويُحجز الملح",
+   "tts": "تَمُرُّ مِنْها جُزَيْئاتُ الماء، ويُحْجَزُ المِلْح",
+   "at": [
+    20.6,
+    22.6
+   ]
+  },
+  {
+   "caption": "وهذه أشهر طريقة اليوم",
+   "tts": "وهذِهِ أشْهَرُ طَريقَةٍ اليَوْم",
+   "at": [
+    22.8,
+    24.6
+   ],
+   "scene_start": true
+  },
+  {
+   "caption": "لأنها توفر كثيرًا من الطاقة",
+   "tts": "لِأنَّها تُوَفِّرُ كَثيرًا مِنَ الطّاقة",
+   "at": [
+    24.6,
+    26.8
+   ]
+  },
+  {
+   "caption": "فالماء في كأسك",
+   "tts": "فالماءُ في كَأْسِك",
+   "at": [
+    27.0,
+    28.2
+   ],
+   "scene_start": true
+  },
+  {
+   "caption": "ربما كان يومًا في البحر!",
+   "tts": "رُبَّما كانَ يَوْمًا في البَحْر!",
+   "at": [
+    28.2,
+    29.9
+   ]
+  }
+ ],
+ "sfx": {
+  "whoosh": [
+   4.2,
+   9.6,
+   15.0,
+   22.6,
+   26.8
+  ],
+  "pop": [
+   2.0,
+   2.95,
+   4.6,
+   6.4,
+   7.8,
+   11.5,
+   13.2,
+   20.8,
+   27.1,
+   28.5
+  ],
+  "ding": [
+   14.4,
+   22.0
+  ],
+  "spark": [
+   24.8
+  ]
+ },
+ "en": {
+  "title": "Desalination Explained in 2 Methods",
+  "voice": "en-US-AndrewNeural",
+  "rate": "+10%",
+  "lines": [
+   {
+    "caption": "You may have drunk seawater today"
+   },
+   {
+    "caption": "without tasting any salt!"
+   },
+   {
+    "caption": "How?"
+   },
+   {
+    "caption": "Saudi Arabia leads the world in desalination"
+   },
+   {
+    "caption": "using two main methods"
+   },
+   {
+    "caption": "Method one: boil the seawater"
+   },
+   {
+    "caption": "Only the water evaporates"
+   },
+   {
+    "caption": "the salt stays at the bottom"
+   },
+   {
+    "caption": "Cool the steam: fresh water!"
+   },
+   {
+    "caption": "Method two: reverse osmosis"
+   },
+   {
+    "caption": "Push seawater with huge pressure"
+   },
+   {
+    "caption": "against a membrane with tiny holes"
+   },
+   {
+    "caption": "Water slips through, salt gets stuck"
+   },
+   {
+    "caption": "It's the most common method today"
+   },
+   {
+    "caption": "because it saves a lot of energy"
+   },
+   {
+    "caption": "So the water in your glass"
+   },
+   {
+    "caption": "may once have been in the sea!"
+   }
+  ]
+ }
+}

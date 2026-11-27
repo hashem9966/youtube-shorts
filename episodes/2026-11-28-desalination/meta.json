@@ -1,0 +1,71 @@
+{
+ "ar": {
+  "title": "كيف تعمل محطات التحلية؟ شرح في 37 ثانية",
+  "cover_text": "من البحر؟",
+  "description": "كيف يصير ماء البحر صالحًا للشرب؟ تحلية مياه البحر تتم بطريقتين: الأولى الغلي والتبخير، فيتبخر الماء وحده ويبقى الملح، ثم يُبرَّد البخار فيصير ماءً عذبًا. والثانية التناضح العكسي: يُضغط ماء البحر بقوة على غشاء فيه ثقوب دقيقة جدًا تمر منها جزيئات الماء ويُحجز الملح.\nوالسعودية أكبر منتج للماء المحلّى في العالم، والتناضح العكسي هو الأشهر اليوم لأنه يوفر كثيرًا من الطاقة.\n\n#علوم #كيمياء #shorts",
+  "tags": [
+   "تحلية مياه البحر",
+   "كيف تعمل محطات التحلية",
+   "التناضح العكسي",
+   "تحلية المياه",
+   "ماء البحر",
+   "التقطير",
+   "المياه المحلاة",
+   "السعودية",
+   "كيمياء",
+   "علوم",
+   "مياه الشرب"
+  ],
+  "first_comment": "هل كنت تعرف أن ماء الشرب قد يأتي من البحر؟ 👇"
+ },
+ "en": {
+  "title": "Desalination Explained in 2 Methods",
+  "cover_text": "From the sea?",
+  "description": "How does seawater become drinking water? Desalination uses two main methods. One: boil it, only the water evaporates, the salt stays behind, and the cooled steam becomes fresh water. Two: reverse osmosis, pushing seawater at high pressure against a membrane with tiny pores that let water molecules through and block the salt.\nSaudi Arabia is the world's largest producer of desalinated water, and reverse osmosis is the most common method today because it uses far less energy.\n\n#science #chemistry #shorts",
+  "tags": [
+   "desalination",
+   "how does desalination work",
+   "reverse osmosis",
+   "seawater to drinking water",
+   "distillation",
+   "desalination plant",
+   "Saudi Arabia desalination",
+   "fresh water",
+   "chemistry",
+   "science shorts"
+  ],
+  "first_comment": "Would you drink desalinated seawater? 👇"
+ },
+ "hooks": [
+  {
+   "ar": "ربما شربت اليوم ماء بحر، من دون أن تشعر بالملح! كيف؟",
+   "en": "You may be drinking seawater today, with 0 salt. How?",
+   "score": 54,
+   "used": true
+  },
+  {
+   "en": "The sea is salty, but your tap water isn't. How?",
+   "score": 46
+  },
+  {
+   "en": "Drink seawater and you get thirstier. So how do we drink it?",
+   "score": 44
+  },
+  {
+   "en": "Your tap water may have been in the sea last week. How?",
+   "score": 44
+  },
+  {
+   "en": "Saudi Arabia turns seawater into drinking water. How?",
+   "score": 38
+  }
+ ],
+ "test": "strongest pattern (everyday mystery), with a local Saudi angle",
+ "facts": [
+  "Saudi Arabia is the world's largest producer of desalinated water (Asharq Al-Awsat 'How Saudi Arabia Became the World's Largest Desalinated Water Producer'; Arab News; Saudi Water Authority).",
+  "Thermal desalination: boiling seawater, water evaporates and salt stays; condensed vapour is fresh water (standard chemistry).",
+  "Reverse osmosis forces seawater under high pressure through semi-permeable membranes that block salts (Veolia; Asharq Al-Awsat).",
+  "Reverse osmosis uses much less energy than thermal methods; Saudi Arabia has shifted from thermal to RO (Asharq Al-Awsat: up to 80% less energy).",
+  "No salinity number used (35 g/L not verified in this run)."
+ ]
+}

@@ -1,0 +1,67 @@
+1
+00:00:00,150 --> 00:00:01,741
+The sky turns red at sunset
+
+2
+00:00:01,741 --> 00:00:02,919
+for one simple reason
+
+3
+00:00:02,919 --> 00:00:03,460
+What is it?
+
+4
+00:00:03,660 --> 00:00:04,613
+Sunlight looks white
+
+5
+00:00:04,613 --> 00:00:05,888
+but it's a mix of all colors
+
+6
+00:00:05,888 --> 00:00:07,216
+from red all the way to blue
+
+7
+00:00:07,416 --> 00:00:08,298
+When it enters the air
+
+8
+00:00:08,298 --> 00:00:10,088
+the colors hit tiny air molecules
+
+9
+00:00:10,088 --> 00:00:11,661
+Blue scatters in every direction
+
+10
+00:00:11,661 --> 00:00:12,859
+so the sky looks blue
+
+11
+00:00:13,059 --> 00:00:13,870
+But at sunset
+
+12
+00:00:13,870 --> 00:00:15,234
+light crosses far more air
+
+13
+00:00:15,234 --> 00:00:17,173
+Blue scatters away before reaching you
+
+14
+00:00:17,373 --> 00:00:18,838
+only red and orange remain
+
+15
+00:00:18,838 --> 00:00:19,927
+painting the sky red
+
+16
+00:00:20,127 --> 00:00:21,687
+The same air makes both colors
+
+17
+00:00:21,687 --> 00:00:23,465
+blue at noon, red at sunset!
