@@ -1,0 +1,275 @@
+1
+00:00:00,600 --> 00:00:03,651
+You pay your credit card bill in full, every single month.
+
+2
+00:00:03,971 --> 00:00:05,519
+You've never paid a cent of interest.
+
+3
+00:00:05,839 --> 00:00:08,336
+So how is the card company still making money from you?
+
+4
+00:00:08,656 --> 00:00:11,321
+The answer is hiding in every single tap of your card.
+
+5
+00:00:11,641 --> 00:00:14,699
+And in a way, even people who pay with cash are paying for it.
+
+6
+00:00:15,019 --> 00:00:15,907
+Let's follow the money.
+
+7
+00:00:16,807 --> 00:00:20,663
+When you tap your card, it feels like a deal between just you and the store.
+
+8
+00:00:20,983 --> 00:00:22,487
+But there are more players involved.
+
+9
+00:00:22,807 --> 00:00:24,549
+Your bank, which issued your card.
+
+10
+00:00:24,869 --> 00:00:28,123
+The store's bank, which accepts card payments for the store.
+
+11
+00:00:28,443 --> 00:00:34,058
+And in the middle, the card network, like Visa or Mastercard, which connects the two banks.
+
+12
+00:00:34,378 --> 00:00:36,729
+And they all talk to each other in about two seconds.
+
+13
+00:00:37,629 --> 00:00:39,455
+Here's what happens in those two seconds.
+
+14
+00:00:39,775 --> 00:00:43,129
+The store's terminal sends your card details to the store's bank.
+
+15
+00:00:43,449 --> 00:00:46,535
+The store's bank passes the request through the card network.
+
+16
+00:00:46,855 --> 00:00:49,254
+The network asks your bank: can this person pay?
+
+17
+00:00:49,574 --> 00:00:53,601
+Your bank checks for fraud and your available credit, and says yes or no.
+
+18
+00:00:53,921 --> 00:00:57,119
+The answer travels all the way back, and the terminal beeps.
+
+19
+00:00:57,439 --> 00:01:02,608
+The actual money moves later, usually within a day or two, when the payments are settled.
+
+20
+00:01:03,508 --> 00:01:06,010
+Now, let's say you buy something for one hundred dollars.
+
+21
+00:01:06,330 --> 00:01:09,039
+The store doesn't actually receive one hundred dollars.
+
+22
+00:01:09,359 --> 00:01:11,913
+A slice is taken out before the money arrives.
+
+23
+00:01:12,233 --> 00:01:13,402
+It's called the swipe fee.
+
+24
+00:01:13,722 --> 00:01:22,519
+For Visa and Mastercard credit cards in the United States, merchant groups put the average swipe fee at around two point three percent in 2025.
+
+25
+00:01:22,839 --> 00:01:27,548
+So on a one hundred dollar sale, the store keeps roughly ninety-seven dollars and change.
+
+26
+00:01:28,448 --> 00:01:33,474
+Most of that slice is the interchange fee, and it goes to your bank, the one that issued your card.
+
+27
+00:01:33,794 --> 00:01:36,870
+The store's bank adds a small markup for handling the payment.
+
+28
+00:01:37,190 --> 00:01:42,336
+And the card network charges the banks its own, much smaller, fees for running the system.
+
+29
+00:01:42,656 --> 00:01:44,499
+Here's what surprises a lot of people.
+
+30
+00:01:44,819 --> 00:01:47,636
+Visa and Mastercard don't keep the interchange fee.
+
+31
+00:01:47,956 --> 00:01:50,993
+They earn their money from network and processing fees instead.
+
+32
+00:01:51,893 --> 00:01:53,122
+Two percent sounds tiny.
+
+33
+00:01:53,442 --> 00:01:56,734
+But Americans put trillions of dollars on their cards every year.
+
+34
+00:01:57,054 --> 00:02:05,171
+Merchant groups estimate that Visa and Mastercard credit card swipe fees alone came to well over one hundred billion dollars in 2025.
+
+35
+00:02:05,491 --> 00:02:09,450
+And your bank earns its share of that even if you never pay a single cent of interest.
+
+36
+00:02:10,350 --> 00:02:13,490
+So why would any store agree to give up two percent of every sale?
+
+37
+00:02:13,810 --> 00:02:18,411
+Because people spend more easily with cards, and many barely carry cash anymore.
+
+38
+00:02:18,731 --> 00:02:21,440
+A store that refuses cards can lose customers.
+
+39
+00:02:21,760 --> 00:02:25,543
+So most stores simply accept the fee as a cost of doing business.
+
+40
+00:02:26,443 --> 00:02:28,423
+This is also where your rewards come from.
+
+41
+00:02:28,743 --> 00:02:33,272
+Cash back, points and airline miles are largely paid for by these swipe fees.
+
+42
+00:02:33,592 --> 00:02:37,426
+Premium rewards cards usually carry higher swipe fees for the store.
+
+43
+00:02:37,746 --> 00:02:41,959
+So your bank collects a bigger slice, and hands part of it back to you as points.
+
+44
+00:02:42,279 --> 00:02:45,904
+You're not getting free money. You're getting a share of the fee the store paid.
+
+45
+00:02:46,804 --> 00:02:48,840
+But the store has to cover that fee somehow.
+
+46
+00:02:49,160 --> 00:02:52,334
+Usually, it builds the cost into its prices, for everyone.
+
+47
+00:02:52,654 --> 00:03:00,975
+A study by the Federal Reserve Bank of Boston found that this means people who pay with cash end up helping to fund the rewards of people who pay with cards.
+
+48
+00:03:01,295 --> 00:03:08,781
+And because rewards cards are used more by higher income households, the money tends to flow from lower income shoppers to higher income ones.
+
+49
+00:03:09,681 --> 00:03:12,174
+Now, the swipe fee is just one stream of money.
+
+50
+00:03:12,494 --> 00:03:15,270
+The biggest one comes from people who don't pay in full.
+
+51
+00:03:15,590 --> 00:03:22,855
+Americans owed about one point two eight trillion dollars on their credit cards at the end of 2025, according to the New York Fed.
+
+52
+00:03:23,175 --> 00:03:30,866
+And on accounts that were charged interest, the average rate in 2025 was around twenty-two percent a year, according to the Federal Reserve.
+
+53
+00:03:31,186 --> 00:03:38,974
+The Consumer Financial Protection Bureau found that cardholders paid about one hundred sixty billion dollars in interest in 2024.
+
+54
+00:03:39,294 --> 00:03:41,680
+Plus more than thirty billion dollars in fees.
+
+55
+00:03:42,580 --> 00:03:44,138
+Those fees come in many forms.
+
+56
+00:03:44,458 --> 00:03:46,359
+Annual fees on premium cards.
+
+57
+00:03:46,679 --> 00:03:47,718
+Late payment fees.
+
+58
+00:03:48,038 --> 00:03:49,018
+Cash advance fees.
+
+59
+00:03:49,338 --> 00:03:51,885
+And foreign transaction fees when you pay abroad.
+
+60
+00:03:52,785 --> 00:03:55,844
+So how does a credit card company make money, even from you?
+
+61
+00:03:56,164 --> 00:03:59,513
+One: the swipe fee on every purchase, paid by the store.
+
+62
+00:03:59,833 --> 00:04:02,503
+Two: interest from people who carry a balance.
+
+63
+00:04:02,823 --> 00:04:04,147
+Three: fees.
+
+64
+00:04:04,467 --> 00:04:07,641
+If you pay in full every month, you only feed the first stream.
+
+65
+00:04:07,961 --> 00:04:10,049
+And you even get part of it back as rewards.
+
+66
+00:04:10,369 --> 00:04:14,003
+It's the people carrying a balance who pay for the biggest part of the business.
+
+67
+00:04:14,903 --> 00:04:21,789
+So next time you tap your card, remember: about two seconds, five players, and a slice for almost everyone.
+
+68
+00:04:22,109 --> 00:04:25,668
+If you like seeing where money really goes, subscribe to How Money Moves.
+
+69
+00:04:25,988 --> 00:04:30,386
+This video explains how the system works. It is not financial advice.

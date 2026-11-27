@@ -1,0 +1,52 @@
+{
+ "title": "How Credit Cards Make Money Even If You Pay in Full",
+ "thumbnail_text": "THEY STILL PROFIT",
+ "description": "How do credit card companies make money if you pay your bill in full every month? Every tap of your card triggers a hidden swipe fee, and that fee, plus interest and fees from people who carry a balance, is how the whole system makes money.\n\nIn this video: the five players behind every card payment, what happens in the 2 seconds after you tap, who gets the swipe fee, where rewards really come from, and why even cash payers help pay for them.\n\nChapters\n0:00 You pay in full. So how do they profit?\n0:16 The five players\n0:37 Two seconds\n1:03 The hidden slice\n1:28 Who gets the slice\n1:51 Small percent, huge money\n2:10 Why stores say yes\n2:26 Where rewards come from\n2:46 Who really pays\n3:09 The biggest money maker\n3:42 The fees\n3:52 The three money streams\n\nSources\n- Merchants Payments Coalition / Nilson Report data, via Adyen knowledge hub and CardRates (merchant advocacy figures): https://www.adyen.com/knowledge-hub/credit-card-processing-fees\n- Visa Inc. Form 10-K FY2024 and FY2023 SEC filings: https://www.sec.gov/Archives/edgar/data/1403161/000140316124000058/v-20240930.htm\n- Federal Reserve Bank of New York, Household Debt and Credit Report Q4 2025 (Feb 10, 2026): https://www.newyorkfed.org/newsevents/news/research/2026/20260210\n- Federal Reserve G.19 / FRED series TERMCBCCINTNS: https://fred.stlouisfed.org/series/TERMCBCCINTNS\n- CFPB Consumer Credit Card Market Report, December 2025: https://files.consumerfinance.gov/f/documents/cfpb_consumer-credit-card-market-report_2025-12.pdf\n- Schuh, Shy, Stavins (2010), Who Gains and Who Loses from Credit Card Payments?, Federal Reserve Bank of Boston: https://www.bostonfed.org/publications/public-policy-discussion-paper/2010/who-gains-and-who-loses-from-credit-card-payments-theory-and-calibrations.aspx\n\nThis video is for education only and is not financial advice.\n\n#money #creditcards #finance",
+ "tags": [
+  "how do credit card companies make money",
+  "credit card",
+  "interchange fee",
+  "swipe fee",
+  "credit card rewards",
+  "how visa makes money",
+  "credit card interest",
+  "personal finance explained",
+  "money explained",
+  "how money works",
+  "credit card fees",
+  "cash back"
+ ],
+ "duration_s": 272.39,
+ "sources": [
+  {
+   "claim": "Average Visa/Mastercard credit swipe fee about 2.36% in 2025; Visa+Mastercard credit fees $118.8B in 2025",
+   "source": "Merchants Payments Coalition / Nilson Report data, via Adyen knowledge hub and CardRates (merchant advocacy figures)",
+   "url": "https://www.adyen.com/knowledge-hub/credit-card-processing-fees"
+  },
+  {
+   "claim": "Interchange is paid by acquirers to issuers; Visa's revenue comes from service, data processing and international fees, not interchange",
+   "source": "Visa Inc. Form 10-K FY2024 and FY2023 SEC filings",
+   "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316124000058/v-20240930.htm"
+  },
+  {
+   "claim": "Credit card balances $1.28 trillion at end of Q4 2025",
+   "source": "Federal Reserve Bank of New York, Household Debt and Credit Report Q4 2025 (Feb 10, 2026)",
+   "url": "https://www.newyorkfed.org/newsevents/news/research/2026/20260210"
+  },
+  {
+   "claim": "Average APR on accounts assessed interest about 22% in 2025 (21.91% to 22.83%)",
+   "source": "Federal Reserve G.19 / FRED series TERMCBCCINTNS",
+   "url": "https://fred.stlouisfed.org/series/TERMCBCCINTNS"
+  },
+  {
+   "claim": "Cardholders paid $160B interest and $31.3B fees in 2024",
+   "source": "CFPB Consumer Credit Card Market Report, December 2025",
+   "url": "https://files.consumerfinance.gov/f/documents/cfpb_consumer-credit-card-market-report_2025-12.pdf"
+  },
+  {
+   "claim": "Cash payers subsidize card users; transfer is regressive",
+   "source": "Schuh, Shy, Stavins (2010), Who Gains and Who Loses from Credit Card Payments?, Federal Reserve Bank of Boston",
+   "url": "https://www.bostonfed.org/publications/public-policy-discussion-paper/2010/who-gains-and-who-loses-from-credit-card-payments-theory-and-calibrations.aspx"
+  }
+ ]
+}
