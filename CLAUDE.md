@@ -15,6 +15,9 @@ The skills mention `~/.claude/youtube/voice.md` and asking for the creator's vid
 
 ## Fixed facts
 - Metricool brand (blogId): `8317657`, timezone `Asia/Riyadh`, YouTube is the only connected network.
+  - **Two Metricool connectors may be attached.** The second one belongs to a different channel, How Money Moves (brand 8401702). Never use it.
+  - At the start of a run, call getBrandSettings on each Metricool connector and use only the one that returns 8317657.
+  - Before every createScheduledPost, check that the blogId is 8317657.
 - **Each run makes the NEXT day's content** (owner's standing order, 2026-11-25): the run on day D builds two videos and schedules them for day D+1 as soon as every check passes. Never ask the owner for approval or confirmation, and never stop to wait for a reply; the owner gave permanent approval.
 - Publish times (on day D+1): video A at **13:00**, video B at **18:00** Asia/Riyadh (both inside Metricool's best-time window; the peak is 15:00–17:00).
 - The two videos of a day must be on different topics and look different (different scenes and visual metaphors), so the channel never reads as mass-produced. YouTube does not monetise repetitive or templated content, so variety matters.

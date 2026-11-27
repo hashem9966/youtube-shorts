@@ -7,7 +7,11 @@ The owner gave Claude **full control** of this channel (content, design, product
 Read `money/PLAN.md` first: niche, quality rules and the video list.
 
 ## Fixed facts
-- Publish with the **Metricool Money** connector (`mcp__Metricool_Money__*`), brand **8401702**, timezone Asia/Riyadh. Never use the other Metricool connector or brand 8317657, which is the Arabic channel.
+- Publish with the Metricool connector whose `getBrandSettings` returns brand **8401702** (owner `howmoneymoves.sa@gmail.com`, timezone Asia/Riyadh).
+  - **Tool names differ by session.** The connector can show up as `mcp__Metricool_Money__*` or as `mcp__738dd0f9-9b98-487b-b6af-c8ce78397c6f__*`.
+  - **At the start of every run,** call getBrandSettings on each Metricool connector and use only the one that returns 8401702.
+  - **Before every createScheduledPost,** check that the blogId is 8401702.
+  - **Never touch brand 8317657.** That is the Arabic channel.
 - Hosting: commit files to `main`. Their public URL is `https://raw.githubusercontent.com/hashem9966/youtube-shorts/main/<path>`. Before scheduling, check the URL returns HTTP 200.
 - Audience: US, UK and EU. Publish at **22:00 Asia/Riyadh** (14:00 New York).
 - Engine: `money/engine/voice_long.py` (narration and timeline), `money/engine/render_long.js` (16:9 render, previews, thumbnail, SRT) and `money/engine/longlib.js` (drawing kit). Episode 01 is the reference: `money/episodes/01-credit-cards/`.
