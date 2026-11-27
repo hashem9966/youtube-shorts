@@ -65,6 +65,7 @@ The skills mention `~/.claude/youtube/voice.md` and asking for the creator's vid
    - **Description:** the first 2 lines contain the words people search for. Add 2–3 hashtags, including `#shorts`.
    - **Tags:** ≤ 15.
    - Save it all in `episodes/<ep>/meta.json`: title, description, tags, hooks with their scores, and the facts checked with their sources.
+**Anything that needs the owner → phone (owner's request, 2026-11-25 and 2026-11-27).** Whenever the run needs the owner for anything (an approval prompt, a failed step, a disconnected tool, a missing permission, a YouTube setting), send a PushNotification right away, one Arabic line naming what to do. Do not wait for the final report.
 **Approval prompts → phone (owner's request, 2026-11-25).** Right before the first Metricool `createScheduledPost` of a run (and before any other call that may stop for a one-time approval), send a PushNotification in Arabic, e.g. «محتاج موافقتك في التطبيق لجدولة فيديوهات بكرة». If a call comes back denied or unanswered, send another PushNotification saying what is waiting, then carry on with the rest of the run.
 
 10. **Publish.** `git add` the episode (keep `build/` out; it is gitignored), commit, then `git push origin HEAD:main`.
